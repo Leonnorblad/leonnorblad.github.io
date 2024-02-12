@@ -48,25 +48,22 @@ orcid_username: 0009-0004-8562-4118
 # about_title: About Me
 about_profile_image: images/profilepic.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Last year Master student in Statistics and machine learning. 
+  Last year Master student in Statistics and machine learning.
 
-  Skilled in <mark>Python<mark>, R and SQL.
-
-  |
-  Big fan of Hugging face.
+  Skilled in <mark>Python</mark>,  <mark>R</mark> and <mark>SQL</mark>.
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: Claim Verification Using Generated Data by ChatGPT and Wikipedia
+        link: https://github.com/Leonnorblad/fact-verification
         # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+        #additional_links:
+        #  - title:  sproogen/modern-resume-theme
+        #    icon: fab fa-github
+        #    url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
