@@ -130,7 +130,7 @@ content:
   - title: My skills
     layout: text
     content: |
-    hello
+     hello
 #    - Timeseries and sequence data
 #      - RNNs, LSTMs, GRUs
 #    - Computer vision
