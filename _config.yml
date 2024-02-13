@@ -130,11 +130,10 @@ content:
   - title: My skills
     layout: text
     content: |
-     hello
-#    - Timeseries and sequence data
-#      - RNNs, LSTMs, GRUs
-#    - Computer vision
-#      - CNNs and ViT 
+      - Timeseries and sequence data
+        - RNNs, LSTMs, GRUs
+      - Computer vision
+        - CNNs and ViT 
 
 # Footer
 footer_show_references: true
