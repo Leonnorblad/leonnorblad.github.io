@@ -127,38 +127,37 @@ content:
           I am currently studying statistics and machine learning at Linköping University.
 
 ### My interests Section ###
-  - title: My skills
-    layout: text
-    content: |
-      I have expecience of working with a wide range of data types and models.
-
-      ## Programming languages
-       - Python
-       - R
-       - SQL
-       - SAS
-
-      ## Tools
-       - Git
-       - MiniTab
-       - SPSS
-       - Excel
-
-      ## Statistics and Machine learning methods
-      - Neural networks
-      - Convolutional neural networks
-      - Recurrent neural networks
-      - Transformers
-      - Tree based models such as Random forest, XGBoost, AdaBoost
-      - Support vector machines
-      - Clustering nethods such as K-means, DBSCAN, Hierarchical clustering
-      - Dimensionality reduction methods such as PCA, t-SNE, UMAP
-      - Time series analysis such as ARIMA, SARIMA, VAR, VECM
-      - Survival analysis
-      - Bayesian statistics methods such as MCMC, Gibbs sampling
-      - Hypothesis testing such as t-test, chi-squared test, ANOVA
-      - Regression analysis such as linear regression and logistic regression
-      - Classification methods such as KNN, Naive Bayes, SVM
+#  - title: My skills
+#    layout: text
+#    content: |
+#      I have expecience of working with a wide range of data types and models.
+#
+#      ## Programming languages
+#       - Python
+#       - R
+#       - SQL
+#       - SAS
+#
+#      ## Tools
+#       - Git
+#       - MiniTab
+#       - SPSS
+#       - Excel
+#
+#      ## Statistics and Machine learning methods
+#      - Neural networks
+#      - Convolutional neural networks
+#      - Recurrent neural networks
+#      - Transformers
+#      - Tree based models such as Random forest, XGBoost and AdaBoost
+#      - Support vector machines
+#      - Clustering nethods such as K-means, DBSCAN and Hierarchical clustering
+#      - Dimensionality reduction methods such as PCA, t-SNE and UMAP
+#      - Time series analysis such as ARIMA, SARIMA, VAR and VECM
+#      - Survival analysis
+#      - Bayesian statistics methods such as MCMC, Gibbs sampling
+#      - Hypothesis testing such as t-test, chi-squared test, ANOVA
+#      - Regression analysis such as linear regression and logistic regression
 
 # Footer
 footer_show_references: true
