@@ -130,31 +130,11 @@ content:
   - title: My skills
     layout: text
     content: |
-    - Timeseries and sequence data
-      - RNNs, LSTMs, GRUs
-    - Computer vision
-      - CNNs and ViT 
-
-
-### Full list of my courses ###
-#  - title: Courses
-#    layout: 
-#    content:
-#      - layout:
-#  - title: Statistics
-#    layout: list
-#    content:
-#      - Introduction to Statistics
-#      - Advanced Statistical Methods
-#      - Statistical Analysis with R
-#
-#  - title: Machine Learning
-#    layout: list
-#    content:
-#      - Machine Learning Fundamentals
-#      - Deep Learning Basics
-#      - Applied Machine Learning
-
+    hello
+#    - Timeseries and sequence data
+#      - RNNs, LSTMs, GRUs
+#    - Computer vision
+#      - CNNs and ViT 
 
 # Footer
 footer_show_references: true
