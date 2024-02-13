@@ -46,7 +46,12 @@ content:
       - layout: top-middle
         title: Master thesis at RISE
         description: |
-          I am currently working on my master thesis at RISE. The project is about damage detection in circular fashion.
+          I am currently working on my master's thesis at the Research Institutes of Sweden.
+          My project is a part of the EU project *Circular and Sustainable Textile and Clothing* <a href="https://cisutac.eu" target="_blank">cisutac.eu</a>.
+          Which is a large initiative to increase textile circularity in Europe.
+          My thesis aims to automate the sorting process.
+          By using machine vision, I will develop a damage detection model to gain a better understanding of the condition of the garment.
+          This information is essential for a sorting decision.
 
 ### Projects section ####
   - title: Projects # Title for the section
