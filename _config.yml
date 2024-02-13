@@ -136,25 +136,20 @@ content:
 #    layout: 
 #    content:
 #      - layout:
-courses:
-  - category: Statistics
-    courses_list:
-      - title: Introduction to Statistics
-        url: /statistics/intro
-      - title: Advanced Statistical Methods
-        url: /statistics/advanced
-      - title: Statistical Analysis with R
-        url: /statistics/r
+content:
+  - title: Statistics
+    layout: list
+    content:
+      - Introduction to Statistics
+      - Advanced Statistical Methods
+      - Statistical Analysis with R
 
-  - category: Machine Learning
-    courses_list:
-      - title: Machine Learning Fundamentals
-        url: /machine-learning/fundamentals
-      - title: Deep Learning Basics
-        url: /machine-learning/deep-learning
-      - title: Applied Machine Learning
-        url: /machine-learning/applied
-
+  - title: Machine Learning
+    layout: list
+    content:
+      - Machine Learning Fundamentals
+      - Deep Learning Basics
+      - Applied Machine Learning
 
 
 # Footer
