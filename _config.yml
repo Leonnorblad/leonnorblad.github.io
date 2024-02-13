@@ -29,6 +29,11 @@ linkedin_username: leonardnorblad
 # googleplus_username: +jekyll
 orcid_username: 0009-0004-8562-4118
 
+additional_links:
+- title: Kaggle
+  icon: fa-brands fa-kaggle
+  url: https://your-kaggle-url.com
+
 # Additional icon links
 #additional_links:
 #- title: itsgoingto.be
@@ -37,6 +42,8 @@ orcid_username: 0009-0004-8562-4118
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
+
+# <i class="fa-brands fa-kaggle"></i>
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
