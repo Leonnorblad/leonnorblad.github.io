@@ -33,7 +33,7 @@ about_content: | # this will include new lines to allow paragraphs
   Once my thesis is completed in June, I am interested in a full-time employment in AI/ML, preferably in Stockholm.
   
   Hit me up if you are looking for:
-  - An awesome college to join your team 🌟
+  - An awesome colleague to join your team 🌟
   - A collaborator on a ML project🤝
 
   Or just want to chat about AI/ML in general💡
@@ -50,7 +50,7 @@ content:
           My thesis is a part of the EU project *Circular and Sustainable Textile and Clothing* <a href="https://cisutac.eu" target="_blank">cisutac.eu</a>.
           Which is a large initiative to increase textile circularity in Europe.
           More specifically, my thesis aims to automate the sorting process.
-          By using machine vision, I will develop a damage detection model to gain a better understanding of the condition of the garment.
+          By using machine vision, I am developing a damage detection model to gain a better understanding of the condition of the garment.
           This information is essential for a sorting decision.
 
 ### Projects section ####
@@ -91,7 +91,7 @@ content:
           Together with my two teammates [Elias] and [Filip] we developed an ensemble model consisting of Multinomial Naive Bayes,
           Stochastic Gradient Descent (with modified Huber loss), LightGBM (gradient boosting model), and CatBoost (gradient boosting on decision trees).
           A key aspect of our solution, except the use of an ensemble model, was to use a large ngram in our vectorization of the text.
-          Our final submission reached a private LB AUC score of 0.893091, giving us a top 36% placement.
+          Our final submission reached a private LB AUC score of 0.893, giving us a top 36% placement.
 
 
 #### Experience Section ###
@@ -107,7 +107,7 @@ content:
         description: |
           Microtec developes intellegent wood scanners all over the world.
           As a member of the AI team, my responsibilities included the development and implementation of machine learning solutions
-          to extend the functionality of the wood scanners. I worked one day a week during my studies and full-time during the summer.
+          to extend the functionality of the wood scanners. I worked 8-10 hours per week during my studies and full-time during the summer.
 
 ### Education Section ###
   - title: Education # Title for the section
