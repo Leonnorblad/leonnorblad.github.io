@@ -9,41 +9,19 @@ version: 2
 name: Leonard Persson Norblad
 title: MSs in Statistics and Machine Learning
 email: leonard.norblad@gmail.com
-#website: www.github.com/sproogen/resume-theme
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-#twitter_username: facespics
 github_username:  leonnorblad
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-#instagram_username: jameswgrant
 linkedin_username: leonardnorblad
-# xing_username: jekyll
-# pinterest_username: jekyll
-#youtube_username: globalmtb
-# googleplus_username: +jekyll
 orcid_username: 0009-0004-8562-4118
 
 additional_links:
 - title: Kaggle
   icon: fab fa-kaggle
   url: https://www.kaggle.com/leonnorblad
-
-# Additional icon links
-#additional_links:
-#- title: itsgoingto.be
-#  icon: fas fa-globe
-#  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# <i class="fa-brands fa-kaggle"></i>
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -52,7 +30,7 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
+about_title: About Me
 about_profile_image: images/profilepic.jpg
 about_content: | # this will include new lines to allow paragraphs
   Last year Master student in Statistics and machine learning.
@@ -60,17 +38,25 @@ about_content: | # this will include new lines to allow paragraphs
   Skilled in <mark>Python</mark>,  <mark>R</mark> and <mark>SQL</mark>.
 
 content:
+  - title: Current projects
+    layout: list
+    content:
+      - layout: top-middle
+        title: Master thesis at RISE
+        description: |
+          I am currently working on my master thesis at RISE. The project is about damage detection in circular fashion.
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
         title: Claim Verification Using Generated Data by ChatGPT and Wikipedia
-        link: https://github.com/Leonnorblad/fact-verification
+        #link: https://github.com/Leonnorblad/fact-verification
         # link_text: Project Website
-        #additional_links:
-        #  - title:  sproogen/modern-resume-theme
-        #    icon: fab fa-github
-        #    url: github.com/sproogen/modern-resume-theme
+        additional_links:
+          - title: Leonnorblad/fact-verification
+            icon: fab fa-github
+            url: https://github.com/Leonnorblad/fact-verification
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
