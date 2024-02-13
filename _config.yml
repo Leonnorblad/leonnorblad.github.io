@@ -127,29 +127,33 @@ content:
           I am currently studying statistics and machine learning at Linköping University.
 
 ### My interests Section ###
-#  - title: A Little More About Me
-#    layout: text
-#    content: | 
+  - title: My skills
+    layout: text
+    content: |
+    - Timeseries and sequence data
+      - RNNs, LSTMs, GRUs
+    - Computer vision
+      - CNNs and ViT 
+
 
 ### Full list of my courses ###
 #  - title: Courses
 #    layout: 
 #    content:
 #      - layout:
-content:
-  - title: Statistics
-    layout: list
-    content:
-      - Introduction to Statistics
-      - Advanced Statistical Methods
-      - Statistical Analysis with R
-
-  - title: Machine Learning
-    layout: list
-    content:
-      - Machine Learning Fundamentals
-      - Deep Learning Basics
-      - Applied Machine Learning
+#  - title: Statistics
+#    layout: list
+#    content:
+#      - Introduction to Statistics
+#      - Advanced Statistical Methods
+#      - Statistical Analysis with R
+#
+#  - title: Machine Learning
+#    layout: list
+#    content:
+#      - Machine Learning Fundamentals
+#      - Deep Learning Basics
+#      - Applied Machine Learning
 
 
 # Footer
