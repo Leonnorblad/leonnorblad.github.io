@@ -74,6 +74,12 @@ content:
         description: |
          As a part of the LiU course Bioinformatics (732A51), I developed an R package for sequence alignment and visualization. The package is available on CRAN and can be installed using the command `install.packages("SeqAlignR")`.
 
+        - layout: top-middle
+          title: LLM - detect AI generated text
+          link: kaggle.com/competitions/llm-detect-ai-generated-text
+          description: |
+           Competetion hosted by Kaggle. The task was to identify which essay was written by a large language model. 
+
 
 #### Experience Section ###
   - title: Experience # Title for the section
