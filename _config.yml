@@ -66,7 +66,7 @@ content:
         title: R Package - SeqAlignR
         link: cran.r-project.org/web/packages/SeqAlignR
         #link: github.com/Leonnorblad/SeqAlignR
-        #additional_links:
+        additional_links:
         #  - title:  Github
         #    icon: fab fa-github
             url: github.com/Leonnorblad/SeqAlignR
