@@ -62,12 +62,12 @@ content:
 
       - layout: top-middle
         title: R Package - SeqAlignR
-        link: https://cran.r-project.org/web/packages/SeqAlignR/index.html
-        link_text: cran.r-project.org/web/packages/SeqAlignR
-        additional_links:
-          - title:  Github
-            icon: fab fa-github
-            url: https://github.com/Leonnorblad/SeqAlignR
+        link: cran.r-project.org/web/packages/SeqAlignR
+        link: github.com/Leonnorblad/SeqAlignR
+        #additional_links:
+        #  - title:  Github
+        #    icon: fab fa-github
+        #    url: https://github.com/Leonnorblad/SeqAlignR
         description: |
          As a part of the LiU course Bioinformatics, I developed an R package for sequence alignment and visualization. The package is available on CRAN and can be installed using the command `install.packages("SeqAlignR")`.
 
