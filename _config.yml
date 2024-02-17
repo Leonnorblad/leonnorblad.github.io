@@ -45,6 +45,7 @@ content:
     content:
       - layout: top-middle
         title: Master thesis at RISE
+        sub_title: Damage detection in circular fashion
         description: |
           I am currently working on my master's thesis at the Research Institutes of Sweden.
           My thesis is a part of the EU project *Circular and Sustainable Textile and Clothing* <a href="https://cisutac.eu" target="_blank">cisutac.eu</a>.
@@ -52,6 +53,8 @@ content:
           More specifically, my thesis aims to automate the sorting process.
           By using machine vision, I am developing a damage detection model to gain a better understanding of the condition of the garment.
           This information is essential for a sorting decision.
+          During the whole sping we also have weekly paper reviews where we take a deep-dive into a recent paper.
+          I find workshops like this essential as the field of AI/ML is moving at a rapid pace.
 
 ### Projects section ####
   - title: Projects # Title for the section
@@ -59,8 +62,12 @@ content:
     content:
       - layout: top-middle
         title: Claim Verification Using Generated Data by ChatGPT and Wikipedia
-        link: github.com/Leonnorblad/fact-verification
-        description: | # this will include new lines to allow paragraphs
+        #link: github.com/Leonnorblad/fact-verification
+        additional_links:
+          - title: Github
+            icon: fab fa-github
+            url: github.com/Leonnorblad/fact-verification
+        description: |
           As a part of the LiU text-mining course, I decided to dive deeper in the task of fact verification.
           The model I developed analyzes a user input string and predicts its truthfulness. This is performed by
           comparing the input string to a paragapth of evidence. To extract claims and evidence to train the model I
@@ -84,7 +91,11 @@ content:
 
       - layout: top-middle
         title: LLM - detect AI generated text
-        link: kaggle.com/competitions/llm-detect-ai-generated-text
+        #link: kaggle.com/competitions/llm-detect-ai-generated-text
+        additional_links:
+          - title: Kaggle
+            icon: fab fa-kaggle
+            url: kaggle.com/competitions/llm-detect-ai-generated-text
         description: |
           Competition hosted by Kaggle.
           The task was to identify which essay was written by a large language model.
@@ -92,6 +103,38 @@ content:
           Stochastic Gradient Descent (with modified Huber loss), LightGBM (gradient boosting model), and CatBoost (gradient boosting on decision trees).
           A key aspect of our solution, except the use of an ensemble model, was to use a large ngram in our vectorization of the text.
           Our final submission reached a private LB AUC score of 0.893, giving us a top 36% placement.
+
+      - layout: top-middle
+        title: Predict student performance from gameplay
+        additional_links:
+          - title: Kaggle
+            icon: fab fa-kaggle
+            url: kaggle.com/competitions/predict-student-performance-from-game-play
+        description: |
+          Competition hosted by Kaggle.
+          The task was to predict the futute performance based on a students gameplay in a educational game.
+          After studying the game, we found that the player must pay attention at specific timepints to answer correctly on the upcomming questions.
+          Because of this, me and my teamate [Elias] decided to base our features on to the number of clicks and time spent in diffrent rooms in the game.
+          In total the played had to answer 18 diffrent questions at tree diffrent levels. We therefore generated features for each question and level.
+          We leveraged XGBoost capability of extracting feature importance to find a subset of relevant features.
+          We then fitted both a neural network and a XGBoost model on the selected features.
+          This was a great learning experience as it was the first time attending a competition on kaggle.
+          Our solution was novel but unfortunately did not perform well in the competition, leaving us on a top 61% placement.
+
+      - layout: top-middle
+        title: Batchelor thesis at Atrium Ljugberg
+        sub_title: Forecasting service matters
+        #link: https://github.com/Leonnorblad/Kandidatuppsats
+        additional_links:
+          - title: Github
+            icon: fab fa-github
+            url: github.com/Leonnorblad/Kandidatuppsats
+        description: |
+         Me and my partner [Isabella Roos] developed forecasting model(s) predicting service matters for the properties at <a href="https://www.al.se/" target="_blank">Atrium Ljungberg</a>.
+         The most sucsessful strategy was found to model each area sepretly.
+         Both traditional time-series modeling (SARIMA) and machine leanring methods (XGBoost) where explored.
+         Summary, code, and full pdf (abstract in English) is avalible on my GitHub. 
+
 
 
 #### Experience Section ###
@@ -106,8 +149,9 @@ content:
         caption: January 2023 - August 2023
         description: |
           Microtec developes intellegent wood scanners all over the world.
-          As a member of the AI team, my responsibilities included the development and implementation of machine learning solutions
+          As a member of the R&D team, my responsibilities included the development and implementation of machine learning solutions
           to extend the functionality of the wood scanners. I worked 8-10 hours per week during my studies and full-time during the summer.
+
 
 ### Education Section ###
   - title: Education # Title for the section
@@ -118,32 +162,46 @@ content:
         caption: 2019 - 2022
         sub_title: BSc Statistics and Data Analysis
         description: |
-          Earned both practical and theoretical knowledge in statistics and data analysis.
+          I found this program to be the perfect start of my data science carrer.
+          The program is a mix of established statistical methods, programming, mathematics, and machine learning.
+          Most courses was devided into the lecure + lab + computer-exam structure.
+          I find this teaching technique to be very effective as it gives a deep understanding of the theory as well as the practical skills.
+          Many courses also contained a small project, allowing me to be creative and apply the learned methods to real data, someting I enjoyed extra.
+
       - layout: left
         title: Linköping University
         caption: 2022 - 2024
         sub_title: MSc Statistics and Machine Learning
         description: |
-          I am currently studying statistics and machine learning at Linköping University.
+          After the BSc program intoduced me to the world of data science, I was eager to learn more.
+          I therefore applied to the MSc program.
+          The program followed a similar structure as the BSc program, but with more advanced models and a deeper dive into the methods.
+          This extended my toolbox to work with new data types and models. It also helped me to understand the underying 
 
 ### My interests Section ###
-#  - title: My skills
-#    layout: text
-#    content: |
-#      I have expecience of working with a wide range of data types and models.
-#
-#      ## Programming languages
-#       - Python
-#       - R
-#       - SQL
-#       - SAS
-#
-#      ## Tools
-#       - Git
-#       - MiniTab
-#       - SPSS
-#       - Excel
-#
+  - title: My skills
+    layout: text
+    content: |
+      ## Programming languages
+       - Python
+       - R
+       - SQL
+       - SAS
+
+      ## Tools
+       - Git
+       - PyTorch
+       - TensorFlow
+       - MiniTab
+       - SPSS
+       - Excel
+
+      ## My favorite courses
+      - Neural networks and learnings systems
+      - Text-mining
+      - Time series
+      - Data-mining
+
 #      ## Statistics and Machine learning methods
 #      - Neural networks
 #      - Convolutional neural networks
@@ -155,9 +213,11 @@ content:
 #      - Dimensionality reduction methods such as PCA, t-SNE and UMAP
 #      - Time series analysis such as ARIMA, SARIMA, VAR and VECM
 #      - Survival analysis
+#      - Refinforcement learning
 #      - Bayesian statistics methods such as MCMC, Gibbs sampling
 #      - Hypothesis testing such as t-test, chi-squared test, ANOVA
 #      - Regression analysis such as linear regression and logistic regression
+
 
 # Footer
 footer_show_references: true
