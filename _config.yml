@@ -26,12 +26,13 @@ additional_links:
 #### About Section ###
 about_title: About Me
 about_profile_image: images/profilepic.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Last year Master's student in Statistics and Machine Learning.
-  Eager to follow the advancements of AI/ML and find new possibilities to leverage this new technology.
-  Currently working on my master's thesis at the Research Institutes of Sweden (RISE).
-  Once my thesis is completed in June, I am interested in a full-time employment in AI/ML, preferably in Stockholm.
-  
+about_content: |
+  Final year Master's student in Statistics and Machine Learning.
+  I am eager to follow the advancements in AI/ML to see how we can utilize it in the industry to improve the quality of our future lives.
+  I believe AI has a significant role in a more sustainable future. 
+  Currently, I am writing my master's thesis at the Research Institutes of Sweden (RISE), where I am developing a machine vision solution to improve the sorting of pre-used textiles.
+  Once my thesis is completed in June, I am interested in full-time employment in AI/ML, preferably in Stockholm.
+
   Hit me up if you are looking for:
   - An awesome colleague to join your team 🌟
   - A collaborator on a ML project🤝
@@ -53,7 +54,7 @@ content:
           More specifically, my thesis aims to automate the sorting process.
           By using machine vision, I am developing a damage detection model to gain a better understanding of the condition of the garment.
           This information is essential for a sorting decision.
-          During the whole sping we also have weekly paper reviews where we take a deep-dive into a recent paper.
+          During the whole sping, we also have weekly paper reviews where we take a deep dive into a recent paper.
           I find workshops like this essential as the field of AI/ML is moving at a rapid pace.
 
 ### Projects section ####
@@ -68,11 +69,11 @@ content:
             icon: fab fa-github
             url: github.com/Leonnorblad/fact-verification
         description: |
-          As a part of the LiU text-mining course, I decided to dive deeper in the task of fact verification.
-          The model I developed analyzes a user input string and predicts its truthfulness. This is performed by
-          comparing the input string to a paragapth of evidence. To extract claims and evidence to train the model I
-          scraped wikipedia pages and then fed the articles together with instructions to generate a claim to ChatGPT
-          with the help of OpenAIs API. I then enbedded the claims and evidence using BERT and trained the classification network.
+          As a part of the LiU text-mining 732A81 course, I decided to dive deeper into the task of fact verification.
+          The model I developed analyzes a user input string and predicts it's truthfulness. This is performed by
+          comparing the input string to a paragraph of evidence. To extract claims and evidence to train the model I
+          scraped Wikipedia pages and then fed the articles together with instructions to generate a claim to ChatGPT
+          with the help of OpenAIs API. I then embedded the claims and evidence using BERT and trained the classification network.
           Code and pdf report is available on my GitHub.
 
       - layout: top-middle
@@ -84,9 +85,9 @@ content:
             icon: fab fa-github
             url: github.com/Leonnorblad/SeqAlignR
         description: |
-         As a part of the LiU course Bioinformatics (732A51), I developed an R package for sequence alignment and visualization.
-         The package uses the Needleman-Wunsch algorithm to align sequences and also provides the option to visualize the alignment
-         in a matrix plot with arrows illustrating the paths and scores of different alignments.
+         As a part of the LiU course Bioinformatics 732A51, I developed an R package for sequence alignment and visualization.
+         The package uses the Needleman-Wunsch algorithm to align biological sequences such as protein or nucleotide sequences.
+         It also provides the option to visualize the alignment in a matrix plot with arrows illustrating the paths and scores of different alignments.
          The package is available on CRAN and can be installed to R simply by running `install.packages("SeqAlignR")`.
 
       - layout: top-middle
@@ -98,8 +99,8 @@ content:
             url: kaggle.com/competitions/llm-detect-ai-generated-text
         description: |
           Competition hosted by Kaggle.
-          The task was to identify which essay was written by a large language model.
-          Together with my two teammates [Elias] and [Filip] we developed an ensemble model consisting of Multinomial Naive Bayes,
+          The task was to distinguish between essays written by a large language model and essays written by a human.
+          Together with my two teammates <a href="https://www.linkedin.com/in/elias-forsblom/" target="_blank">Elias Forsblom</a> and <a href="https://www.linkedin.com/in/filip-furuhed" target="_blank"> Filip Furuhed</a>  we developed an ensemble model consisting of Multinomial Naive Bayes,
           Stochastic Gradient Descent (with modified Huber loss), LightGBM (gradient boosting model), and CatBoost (gradient boosting on decision trees).
           A key aspect of our solution, except the use of an ensemble model, was to use a large ngram in our vectorization of the text.
           Our final submission reached a private LB AUC score of 0.893, giving us a top 36% placement.
@@ -112,13 +113,13 @@ content:
             url: kaggle.com/competitions/predict-student-performance-from-game-play
         description: |
           Competition hosted by Kaggle.
-          The task was to predict the futute performance based on a students gameplay in a educational game.
-          After studying the game, we found that the player must pay attention at specific timepints to answer correctly on the upcomming questions.
-          Because of this, me and my teamate [Elias] decided to base our features on to the number of clicks and time spent in diffrent rooms in the game.
-          In total the played had to answer 18 diffrent questions at tree diffrent levels. We therefore generated features for each question and level.
-          We leveraged XGBoost capability of extracting feature importance to find a subset of relevant features.
-          We then fitted both a neural network and a XGBoost model on the selected features.
-          This was a great learning experience as it was the first time attending a competition on kaggle.
+          The task was to predict the future performance based on a student's gameplay in an educational game.
+          According to our review of the game, the player must pay attention at specific points to answer the questions correctly.
+          Because of this, me and my teammate <a href="https://www.linkedin.com/in/elias-forsblom/" target="_blank">Elias Forsblom</a> decided to base our features on the number of clicks and time spent in different rooms in the game.
+          In total, the player had to answer 18 different questions at three different levels.
+          We leveraged XGBoost's capability of ranking features by importance to find a subset of relevant features for each of the 18 questions.
+          We then fitted both a neural network and an XGBoost model on the selected features.
+          This was a great learning experience as it was our first time attending a competition on Kaggle.
           Our solution was novel but unfortunately did not perform well in the competition, leaving us on a top 61% placement.
 
       - layout: top-middle
@@ -130,10 +131,13 @@ content:
             icon: fab fa-github
             url: github.com/Leonnorblad/Kandidatuppsats
         description: |
-         Me and my partner [Isabella Roos] developed forecasting model(s) predicting service matters for the properties at <a href="https://www.al.se/" target="_blank">Atrium Ljungberg</a>.
-         The most sucsessful strategy was found to model each area sepretly.
-         Both traditional time-series modeling (SARIMA) and machine leanring methods (XGBoost) where explored.
-         Summary, code, and full pdf (abstract in English) is avalible on my GitHub. 
+         Me and my partner <a href="https://www.linkedin.com/in/roosisabella" target="_blank">Isabella Roos</a> developed forecasting models predicting service matters for the properties at <a href="https://www.al.se/" target="_blank">Atrium Ljungberg</a>.
+         The forecasts can be used to make staff schedules.
+         By adjusting the staffing plan to the volume of service matters both overstaffing and understaffing can be avoided.
+         This benefits employees, the company, and enhances the overall customer experience.
+         The most successful strategy was found to model each area separately.
+         Traditional statistical time-series modeling, dynamic regression models, and machine learning methods were explored.
+         Summary, code, and full pdf (abstract in English) are available on my GitHub. 
 
 
 
@@ -144,11 +148,11 @@ content:
       - layout: left
         title: Microtec
         #link: https://microtec.eu/sv-se
-        link_text: microtec.eu/sv-se
+        #link_text: microtec.eu/sv-se
         sub_title: AI Intern
         caption: January 2023 - August 2023
         description: |
-          Microtec developes intellegent wood scanners all over the world.
+          Microtec develops intelligent wood scanners all over the world.
           As a member of the R&D team, my responsibilities included the development and implementation of machine learning solutions
           to extend the functionality of the wood scanners. I worked 8-10 hours per week during my studies and full-time during the summer.
 
@@ -159,49 +163,41 @@ content:
     content:
       - layout: left
         title: Linköping University
+        link: https://liu.se/utbildning/program/f7ksa
+        link_text: Statistik och Dataanalys
         caption: 2019 - 2022
         sub_title: BSc Statistics and Data Analysis
         description: |
-          I found this program to be the perfect start of my data science carrer.
+          I found this program to be the perfect start for my data science career.
           The program is a mix of established statistical methods, programming, mathematics, and machine learning.
-          Most courses was devided into the lecure + lab + computer-exam structure.
-          I find this teaching technique to be very effective as it gives a deep understanding of the theory as well as the practical skills.
-          Many courses also contained a small project, allowing me to be creative and apply the learned methods to real data, someting I enjoyed extra.
+          Most courses were divided into the lecture + lab + computer exam structure.
+          I find this teaching technique to be very effective as it gives a deep understanding of the theory as well as practical skills.
+          Many courses also contained a small project, allowing me to be creative and apply the learned methods to real data, something I enjoyed extra.
 
       - layout: left
         title: Linköping University
+        link: https://liu.se/en/education/program/f7mml
+        link_text: Statistics and Machine Learning
         caption: 2022 - 2024
         sub_title: MSc Statistics and Machine Learning
         description: |
-          After the BSc program intoduced me to the world of data science, I was eager to learn more.
-          I therefore applied to the MSc program.
+          After the BSc program introduced me to the world of data science, I was eager to learn more.
           The program followed a similar structure as the BSc program, but with more advanced models and a deeper dive into the methods.
-          This extended my toolbox to work with new data types and models. It also helped me to understand the underying 
+          This extended my toolbox to work with new data types and models. I will graduate in June 2024, thrilled to see what the future holds.
 
 ### My interests Section ###
-  - title: My skills
+  - title: A little more about me 
     layout: text
     content: |
-      ## Programming languages
-       - Python
-       - R
-       - SQL
-       - SAS
-
-      ## Tools
-       - Git
-       - PyTorch
-       - TensorFlow
-       - MiniTab
-       - SPSS
-       - Excel
-
-      ## My favorite courses
+      ## **My favorite courses**
+      - Deep learning
       - Neural networks and learnings systems
+      - Advanced machine learning
       - Text-mining
       - Time series
       - Data-mining
-
+      
+      Thats it for now! If you want to know more about me, feel free to reach out to me on LinkedIn or send me an email.
 #      ## Statistics and Machine learning methods
 #      - Neural networks
 #      - Convolutional neural networks
@@ -218,6 +214,20 @@ content:
 #      - Hypothesis testing such as t-test, chi-squared test, ANOVA
 #      - Regression analysis such as linear regression and logistic regression
 
+#      ## **Tools**
+#       - Git
+#       - PyTorch
+#       - TensorFlow
+#       - MiniTab
+#       - SPSS
+#       - Excel
+
+#      ## **Programming languages**
+#       - Python
+#       - R
+#       - SQL
+#       - SAS
+  
 
 # Footer
 footer_show_references: true
