@@ -37,7 +37,7 @@ about_content: |
   - An awesome colleague to join your team 🌟
   - A collaborator on a ML project🤝
 
-  Or just want to chat about AI/ML in general💡-
+  Or just want to chat about AI/ML in general💡
 
 ### Current projects section ###
 content:
@@ -132,7 +132,7 @@ content:
             url: github.com/Leonnorblad/Kandidatuppsats
         description: |
          Me and my partner <a href="https://www.linkedin.com/in/roosisabella" target="_blank">Isabella Roos</a> developed forecasting models predicting service matters for the properties at <a href="https://www.al.se/" target="_blank">Atrium Ljungberg</a>.
-         The forecasts can be used to make staff schedules.
+         The forecasts can be used to make data-driven staff schedule decisions.
          By adjusting the staffing plan to the volume of service matters both overstaffing and understaffing can be avoided.
          This benefits employees, the company, and enhances the overall customer experience.
          The most successful strategy was found to model each area separately.
@@ -169,10 +169,10 @@ content:
         sub_title: BSc Statistics and Data Analysis
         description: |
           I found this program to be the perfect start for my data science career.
-          The program is a mix of established statistical methods, programming, mathematics, and machine learning.
+          The program was a mix of established statistical methods, programming, mathematics, and machine learning.
           Most courses were divided into the lecture + lab + computer exam structure.
-          I find this teaching technique to be very effective as it gives a deep understanding of the theory as well as practical skills.
-          Many courses also contained a small project, allowing me to be creative and apply the learned methods to real data, something I enjoyed extra.
+          I found this teaching technique to be very effective as it gives a deep understanding of the theory as well as practical skills.
+          Many courses also contained a small project, allowing me to be creative and apply the learned methods to real data, something I enjoyed.
 
       - layout: left
         title: Linköping University
