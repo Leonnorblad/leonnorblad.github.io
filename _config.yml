@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Leonard Persson Norblad
-title: MSs in Statistics and Machine Learning
+title: MSc in Statistics and Machine Learning
 email: leonard.norblad@gmail.com
 
 # Dark Mode (true/false/never)
@@ -54,7 +54,7 @@ content:
           More specifically, my thesis aims to automate the sorting process.
           By using machine vision, I am developing a damage detection model to gain a better understanding of the condition of the garment.
           This information is essential for a sorting decision.
-          During the whole sping, we also have weekly paper reviews where we take a deep dive into a recent paper.
+          During the whole spring, we also have weekly paper reviews where we take a deep dive into a recent paper.
           I find workshops like this essential as the field of AI/ML is moving at a rapid pace.
 
 ### Projects section ####
@@ -123,7 +123,7 @@ content:
           Our solution was novel but unfortunately did not perform well in the competition, leaving us on a top 61% placement.
 
       - layout: top-middle
-        title: Batchelor thesis at Atrium Ljugberg
+        title: Bachelor thesis at Atrium Ljungberg
         sub_title: Forecasting service matters
         #link: https://github.com/Leonnorblad/Kandidatuppsats
         additional_links:
@@ -137,7 +137,7 @@ content:
          This benefits employees, the company, and enhances the overall customer experience.
          The most successful strategy was found to model each area separately.
          Traditional statistical time-series modeling, dynamic regression models, and machine learning methods were explored.
-         Summary, code, and full pdf (abstract in English) are available on my GitHub. 
+         Summary, code, and full pdf (abstract in English) are available on my GitHub.
 
 
 
