@@ -16,7 +16,7 @@ darkmode: false
 # Social links
 github_username:  leonnorblad
 linkedin_username: leonardnorblad
-orcid_username: 0009-0004-8562-4118
+#orcid_username: 0009-0004-8562-4118
 
 additional_links:
 - title: Kaggle
@@ -227,6 +227,7 @@ content:
 #       - R
 #       - SQL
 #       - SAS
+
   
 
 # Footer
