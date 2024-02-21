@@ -155,7 +155,17 @@ content:
           Microtec develops intelligent wood scanners all over the world.
           As a member of the R&D team, my responsibilities included the development and implementation of machine learning solutions
           to extend the functionality of the wood scanners. I worked 8-10 hours per week during my studies and full-time during the summer.
-
+    
+    layout: list
+    content:
+      - layout: left
+        title: Linköping University
+        sub_title: Teaching assistant
+        caption: 2020 - 2022
+        description: |
+          I worked as a teaching assistant in several courses at Linköping University.
+          My responsibilities included holding lab sessions, grading assignments, and answering student questions.
+          I found this to be a great way to deepen my understanding of the course material and to help others.
 
 ### Education Section ###
   - title: Education # Title for the section
@@ -185,6 +195,17 @@ content:
           The program followed a similar structure as the BSc program, but with more advanced models and a deeper dive into the methods.
           This extended my toolbox to work with new data types and models. I will graduate in June 2024, thrilled to see what the future holds.
 
+  - title: Extracurriculat activity
+    layout: list
+    content:
+      -layout: left
+      title: SCB student association
+      sub_title: Food manager
+      caption: 2020 - 2021
+      description: |
+        Planned and organized festive arrangements such as party's and theme dinners with a special emphasis during the two-week introduction period.
+        My main responsibilities was planning, ordering and preparing food for all events. As part of the group, I also took part in the overall planning of all activities.
+
 ### My interests Section ###
   - title: A little more about me 
     layout: text
@@ -196,7 +217,7 @@ content:
       - Text-mining
       - Time series
       - Data-mining
-      
+
       Thats it for now! If you want to know more about me, feel free to reach out to me on LinkedIn or send me an email.
 #      ## Statistics and Machine learning methods
 #      - Neural networks
