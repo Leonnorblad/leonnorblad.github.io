@@ -156,9 +156,7 @@ content:
           As a member of the R&D team, my responsibilities included the development and implementation of machine learning solutions
           to extend the functionality of the wood scanners. I worked 8-10 hours per week during my studies and full-time during the summer.
     
-    layout: list
-    content:
-      - layout: left
+      - layout: list
         title: Linköping University
         sub_title: Teaching assistant
         caption: 2020 - 2022
@@ -198,9 +196,9 @@ content:
   - title: Extracurriculat activity
     layout: list
     content:
-      -layout: left
-        title: SCB student association
-        sub_title: Food manager
+      - layout: left
+        title: SCB
+        sub_title: Student association
         caption: 2020 - 2021
         description: |
           Planned and organized festive arrangements such as party's and theme dinners with a special emphasis during the two-week introduction period.
