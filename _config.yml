@@ -156,7 +156,7 @@ content:
           As a member of the R&D team, my responsibilities included the development and implementation of machine learning solutions
           to extend the functionality of the wood scanners. I worked 8-10 hours per week during my studies and full-time during the summer.
     
-      - layout: list
+      - layout: left
         title: Linköping University
         sub_title: Teaching assistant
         caption: 2020 - 2022
