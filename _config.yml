@@ -59,14 +59,8 @@ content:
         title: Project kickstarter
         sub_title: Kaggle competition
         description: |
-          In this Kaggle competition, I developed an application to help developers kickstart new projects by utilizing a long-context window with Gemini. 
-        
-          How it works:
-          1. You provide a brief project description.
-          2. The system analyzes your GitHub profile and gathers relevant resources from GitHub, arXiv, and YouTube.
-          3. It identifies your skills and finds similar projects.
-          4. It generates a personalized roadmap with actionable steps to get you started.
-
+          In this Kaggle competition, I developed an application to help developers kickstart new projects by utilizing a long-context window with Gemini
+          How it works: you provide a brief project description, and the system analyzes your GitHub profile while gathering relevant resources from GitHub, arXiv, and YouTube. It identifies your skills, finds similar projects, and generates a personalized roadmap with actionable steps to get you started.
           This approach eliminates the need for tedious research, allowing you to dive straight into building.
 
       - layout: top-middle
