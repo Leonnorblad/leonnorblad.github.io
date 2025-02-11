@@ -1,4 +1,4 @@
-# Site configuration
+theme: sproogen-resume-theme
 repository: sproogen/resume-theme
 version: 2
 
