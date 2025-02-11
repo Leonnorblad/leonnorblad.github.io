@@ -37,7 +37,7 @@ about_content: |
     content:
       - layout: top-middle
         title: Competence Matching - AI-driven job matching system
-        sub_title: Hobby project | Dec 2024 - Feb 2025
+        sub_title: "Hobby project | Dec 2024 - Feb 2025"
         additional_links:
           - title: Github
             icon: fab fa-github
