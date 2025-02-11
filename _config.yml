@@ -249,14 +249,6 @@ content:
   - title: A little more about me 
     layout: text
     content: |
-      ## **My favorite courses**
-      - Deep learning
-      - Neural networks and learnings systems
-      - Advanced machine learning
-      - Text-mining
-      - Time series
-      - Data-mining
-
       ## **Programming languages**
       - Python
       - R
@@ -265,35 +257,17 @@ content:
 
       ## **Tools**
       - Git
+      - OpenAI API
+      - Huggingface
+      - Roboflow
+      - Ollama
+      - Langchain
       - PyTorch
       - TensorFlow
       - MiniTab
       - SPSS
-      - Excel
-
 
       Thats it for now! If you want to know more about me, feel free to reach out to me on LinkedIn or send me an email.
-#      ## Statistics and Machine learning methods
-#      - Neural networks
-#      - Convolutional neural networks
-#      - Recurrent neural networks
-#      - Transformers
-#      - Tree based models such as Random forest, XGBoost and AdaBoost
-#      - Support vector machines
-#      - Clustering nethods such as K-means, DBSCAN and Hierarchical clustering
-#      - Dimensionality reduction methods such as PCA, t-SNE and UMAP
-#      - Time series analysis such as ARIMA, SARIMA, VAR and VECM
-#      - Survival analysis
-#      - Refinforcement learning
-#      - Bayesian statistics methods such as MCMC, Gibbs sampling
-#      - Hypothesis testing such as t-test, chi-squared test, ANOVA
-#      - Regression analysis such as linear regression and logistic regression
-
-
-
-
-
-  
 
 # Footer
 footer_show_references: true
