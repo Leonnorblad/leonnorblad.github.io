@@ -56,6 +56,20 @@ content:
           The system tracks all vehicles in the frame and monitors the speed of the vehicle when the front wheel is close to the white line. By analyzing the speed, the system can determine if the vehicle is violating the stop sign or not.
 
       - layout: top-middle
+        title: Project kickstarter
+        sub_title: Kaggle competition
+        description: |
+          In this Kaggle competition, I developed an application to help developers kickstart new projects by utilizing a long-context window with Gemini. 
+        
+          How it works:
+          1. You provide a brief project description.
+          2. The system analyzes your GitHub profile and gathers relevant resources from GitHub, arXiv, and YouTube.
+          3. It identifies your skills and finds similar projects.
+          4. It generates a personalized roadmap with actionable steps to get you started.
+
+        This approach eliminates the need for tedious research, allowing you to dive straight into building.
+
+      - layout: top-middle
         title: Claim Verification Using Generated Data by ChatGPT and Wikipedia
         #link: github.com/Leonnorblad/fact-verification
         additional_links:
