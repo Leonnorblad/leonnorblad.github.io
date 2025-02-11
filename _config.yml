@@ -47,7 +47,14 @@ content:
       - layout: top-middle
         title: TBA
         description: |
-            What's up next? Who knows? 🚀
+          I am currently working on my master's thesis at the Research Institutes of Sweden.
+          My thesis is a part of the EU project *Circular and Sustainable Textile and Clothing* <a href="https://cisutac.eu" target="_blank">cisutac.eu</a>.
+          Which is a large initiative to increase textile circularity in Europe.
+          More specifically, my thesis aims to automate the sorting process.
+          By using machine vision, I am developing a damage detection model to gain a better understanding of the condition of the garment.
+          This information is essential for a sorting decision.
+          During the whole spring, we also have weekly paper reviews where we take a deep dive into a recent paper.
+          I find workshops like this essential as the field of AI/ML is moving at a rapid pace.
 
 ### Projects section ####
 - title: Projects # Title for the section
