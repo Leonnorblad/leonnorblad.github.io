@@ -58,9 +58,14 @@ content:
       - layout: top-middle
         title: Project kickstarter
         sub_title: Kaggle competition
+        additional_links:
+          - title: Kaggle
+            icon: fab fa-kaggle
+            url: https://www.kaggle.com/competitions/gemini-long-context
         description: |
           In this Kaggle competition, I developed an application to help developers kickstart new projects by utilizing a long-context window with Gemini
-          How it works: you provide a brief project description, and the system analyzes your GitHub profile while gathering relevant resources from GitHub, arXiv, and YouTube. It identifies your skills, finds similar projects, and generates a personalized roadmap with actionable steps to get you started.
+          
+          **How it works:** You provide a brief project description, and the system analyzes your GitHub profile while gathering relevant resources from GitHub, arXiv, and YouTube. It identifies your skills, finds similar projects, and generates a personalized roadmap with actionable steps to get you started.
           This approach eliminates the need for tedious research, allowing you to dive straight into building.
 
       - layout: top-middle
@@ -73,6 +78,7 @@ content:
         description: |
           Developed a lightweight job matching system that runs entirely on your local machine using small open-source LLMs.
           The system helps match your resume with relevant job listings by combining structured metadata filtering with semantic search.
+          
           **How it works:** Pre-defined tags are extracted from each job listing and saved as metadata for each chunk in the vector database. During matching, an LLM converts the user’s requirements into a search query to find relevant job listings. An ideal job listing is then generated and used for semantic similarity to identify the most relevant matches.
           
           The 3 steps of the TUI:
@@ -113,6 +119,7 @@ content:
 
       - layout: top-middle
         title: LLM - detect AI generated text
+        sub_title: Kaggle competition
         #link: kaggle.com/competitions/llm-detect-ai-generated-text
         additional_links:
           - title: Kaggle
@@ -128,6 +135,7 @@ content:
 
       - layout: top-middle
         title: Predict student performance from gameplay
+        sub_title: Kaggle competition
         additional_links:
           - title: Kaggle
             icon: fab fa-kaggle
