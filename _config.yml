@@ -64,18 +64,6 @@ content:
           All processing runs locally without requiring API calls, making it both private and cost-effective. The system uses Llama, Chroma, Langchain, and other open-source tools to deliver efficient matching results.
 
       - layout: top-middle
-        title: Stop Sign Violation Detection
-        additional_links:
-          - title: Github
-            icon: fab fa-github
-            url: github.com/Leonnorblad/DetStopViolation
-        description: |
-          Developed a computer vision system to detect vehicles violating stop signs using video game data.
-          I used YOLOv8 and a fine-tuned Roboflow model to monitor vehicle behavior within defined zones.
-          Violations are flagged and video evidence is recorded for review.
-          The system tracks all vehicles in the frame and monitors the speed of the vehicle when the front wheel is close to the white line. By analyzing the speed, the system can determine if the vehicle is violating the stop sign or not.
-
-      - layout: top-middle
         title: Project kickstarter
         sub_title: Kaggle competition
         additional_links:
@@ -88,6 +76,30 @@ content:
           **How it works:** You provide a brief project description, and the system analyzes your GitHub profile while gathering relevant resources from GitHub, arXiv, and YouTube. It identifies your skills, finds similar projects, and generates a personalized roadmap with actionable steps to get you started.
           This approach eliminates the need for tedious research, allowing you to dive straight into building.
 
+      - layout: top-middle
+        title: Stop Sign Violation Detection
+        additional_links:
+          - title: Github
+            icon: fab fa-github
+            url: github.com/Leonnorblad/DetStopViolation
+        description: |
+          Developed a computer vision system to detect vehicles violating stop signs using video game data.
+          I used YOLOv8 and a fine-tuned Roboflow model to monitor vehicle behavior within defined zones.
+          Violations are flagged and video evidence is recorded for review.
+          The system tracks all vehicles in the frame and monitors the speed of the vehicle when the front wheel is close to the white line. By analyzing the speed, the system can determine if the vehicle is violating the stop sign or not.
+
+      - layout: top-middle
+        title: Master thesis at RISE
+        sub_title: Damage detection in circular fashion
+        description: |
+          During the spring of 2024, I completed my master's thesis at the Research Institutes of Sweden (<a href="https://ri.se" target="_blank">ri.se</a>).
+          My thesis was part of the EU project Circular and Sustainable Textile and Clothing (<a href="https://cisutac.eu" target="_blank">cisutac.eu</a>), a major initiative aimed at increasing textile circularity across Europe.
+
+          The focus of my thesis was developing a computer vision model to support automatic sorting decisions in the textile recycling process.
+          The model captured images of garments laid flat on a table and accurately detected defects, such as holes and stains.
+          These detections serve as a critical input for guiding sorting decisions, helping to improve the efficiency and sustainability of textile recycling.
+
+          Test my model on 🤗: <a href="https://huggingface.co/spaces/Leonnorblad/FashionDamageDetection" target="_blank">huggingface</a>
 
       - layout: top-middle
         title: Claim Verification Using Generated Data by ChatGPT and Wikipedia
