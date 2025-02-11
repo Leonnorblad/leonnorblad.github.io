@@ -28,6 +28,7 @@ about_title: About Me
 about_profile_image: images/profilepic.jpg
 about_content: |
   Absolutely addicted to everything related to AI or machine learning. I’m passionate about turning innovative ideas into reality and constantly seeking new challenges.
+  
   Currently, I work as an AI Consultant at <a href="https://www.predli.com/" target="_blank">Predli Consulting</a>, where I help clients take their AI journey to the next level by unlocking the potential of cutting-edge technology.
 
 ### Current projects section ###
@@ -36,17 +37,7 @@ content:
     layout: list
     content:
       - layout: top-middle
-        title: Master thesis at RISE
-        sub_title: Damage detection in circular fashion
-        description: |
-          I am currently working on my master's thesis at the Research Institutes of Sweden <a href="https://ri.se" target="_blank">ri.se</a>.
-          My thesis is a part of the EU project *Circular and Sustainable Textile and Clothing* <a href="https://cisutac.eu" target="_blank">cisutac.eu</a>.
-          Which is a large initiative to increase textile circularity in Europe.
-          More specifically, my thesis aims to automate the sorting process.
-          By using machine vision, I am developing a damage detection model to gain a better understanding of the condition of the garment.
-          This information is essential for a sorting decision.
-          During the whole spring, we also have weekly paper reviews where we take a deep dive into a recent paper.
-          I find workshops like this essential as the field of AI/ML is moving at a rapid pace.
+        title: Not any current projects
 
 ### Projects section ####
   - title: Projects # Title for the section
