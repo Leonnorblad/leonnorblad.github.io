@@ -96,7 +96,7 @@ content:
           The model captured images of garments laid flat on a table and accurately detected defects, such as holes and stains.
           These detections serve as a critical input for guiding sorting decisions, helping to improve the efficiency and sustainability of textile recycling.
 
-          Try my model on <a href="https://huggingface.co/spaces/Leonnorblad/FashionDamageDetection" target="_blank">Huggingface</a> 🤗!
+          Try my model on <a href="https://huggingface.co/spaces/Leonnorblad/FashionDamageDetection" target="_blank">Huggingface</a> 🤗
 
       - layout: top-middle
         title: Claim Verification
@@ -181,8 +181,6 @@ content:
          The most successful strategy was found to model each area separately.
          Traditional statistical time-series modeling, dynamic regression models, and machine learning methods were explored.
          Summary, code, and full pdf (abstract in English) are available on my GitHub.
-
-
 
 #### Experience Section ###
   - title: Experience # Title for the section
