@@ -33,12 +33,6 @@ about_content: |
 
 ### Current projects section ###
 content:
-  - title: Current projects
-    layout: list
-    content:
-      - layout: top-middle
-        title: TBA 🤫
-
 ### Projects section ####
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -65,7 +59,7 @@ content:
 
       - layout: top-middle
         title: Project kickstarter
-        sub_title: Kaggle competition
+        sub_title: "Kaggle competition | Oct 2024 - Dec 2024"
         additional_links:
           - title: Kaggle
             icon: fab fa-kaggle
@@ -78,6 +72,7 @@ content:
 
       - layout: top-middle
         title: Stop Sign Violation Detection
+        sub_title: "Computer vision system | June 2024 - Aug 2024"
         additional_links:
           - title: Github
             icon: fab fa-github
@@ -90,7 +85,7 @@ content:
 
       - layout: top-middle
         title: Master thesis at RISE
-        sub_title: Damage detection in circular fashion
+        sub_title: "Damage detection in circular fashion | Jan 2024 - May 2024"
         description: |
           During the spring of 2024, I completed my master's thesis at the Research Institutes of Sweden (<a href="https://ri.se" target="_blank">ri.se</a>).
           My thesis was part of the EU project Circular and Sustainable Textile and Clothing (<a href="https://cisutac.eu" target="_blank">cisutac.eu</a>), a major initiative aimed at increasing textile circularity across Europe.
@@ -99,10 +94,11 @@ content:
           The model captured images of garments laid flat on a table and accurately detected defects, such as holes and stains.
           These detections serve as a critical input for guiding sorting decisions, helping to improve the efficiency and sustainability of textile recycling.
 
-          Test my model on 🤗: <a href="https://huggingface.co/spaces/Leonnorblad/FashionDamageDetection" target="_blank">huggingface</a>
+          Try my model on <a href="https://huggingface.co/spaces/Leonnorblad/FashionDamageDetection" target="_blank">Huggingface</a> 🤗!
 
       - layout: top-middle
-        title: Claim Verification Using Generated Data by ChatGPT and Wikipedia
+        title: Claim Verification
+        sub_title: "Using Generated Data by ChatGPT and Wikipedia | Dec 2023 - Jan 2024"
         #link: github.com/Leonnorblad/fact-verification
         additional_links:
           - title: Github
@@ -118,6 +114,7 @@ content:
 
       - layout: top-middle
         title: R Package - SeqAlignR
+        sub_title: "Sequence alignment and visualization tool | Nov 2023 - Dec 2023"
         link: cran.r-project.org/web/packages/SeqAlignR
         #link: github.com/Leonnorblad/SeqAlignR
         additional_links:
@@ -134,7 +131,7 @@ content:
 
       - layout: top-middle
         title: LLM - detect AI generated text
-        sub_title: Kaggle competition
+        sub_title: "Kaggle competition | Nov 2023 - Jan 2024"
         #link: kaggle.com/competitions/llm-detect-ai-generated-text
         additional_links:
           - title: Kaggle
@@ -150,7 +147,7 @@ content:
 
       - layout: top-middle
         title: Predict student performance from gameplay
-        sub_title: Kaggle competition
+        sub_title: "Kaggle competition | Feb 2023 - Jun 2023"
         additional_links:
           - title: Kaggle
             icon: fab fa-kaggle
@@ -168,7 +165,7 @@ content:
 
       - layout: top-middle
         title: Bachelor thesis at Atrium Ljungberg
-        sub_title: Forecasting service matters
+        sub_title: "Forecasting service matters | Jan 2022 - Jun 2022"
         #link: https://github.com/Leonnorblad/Kandidatuppsats
         additional_links:
           - title: Github
