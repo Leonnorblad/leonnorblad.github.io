@@ -37,7 +37,7 @@ content:
     layout: list
     content:
       - layout: top-middle
-        title: Not any current projects
+        title: TBA
 
 ### Projects section ####
   - title: Projects # Title for the section
@@ -105,7 +105,6 @@ content:
 
       - layout: top-middle
         title: R Package - SeqAlignR
-        sub_title: [![](https://cranlogs.r-pkg.org/badges/grand-total/SeqAlignR?color=brightgreen)](https://cran.r-project.org/package=SeqAlignR)
         link: cran.r-project.org/web/packages/SeqAlignR
         #link: github.com/Leonnorblad/SeqAlignR
         additional_links:
@@ -113,6 +112,8 @@ content:
             icon: fab fa-github
             url: github.com/Leonnorblad/SeqAlignR
         description: |
+         [![](https://cranlogs.r-pkg.org/badges/grand-total/SeqAlignR?color=brightgreen)](https://cran.r-project.org/package=SeqAlignR)
+
          As a part of the LiU course Bioinformatics 732A51, I developed an R package for sequence alignment and visualization.
          The package uses the Needleman-Wunsch algorithm to align biological sequences such as protein or nucleotide sequences.
          It also provides the option to visualize the alignment in a matrix plot with arrows illustrating the paths and scores of different alignments.
