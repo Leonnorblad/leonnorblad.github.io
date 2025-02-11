@@ -44,6 +44,18 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        title: Stop Sign Violation Detection
+        additional_links:
+          - title: Github
+            icon: fab fa-github
+            url: github.com/Leonnorblad/DetStopViolation
+        description: |
+        Developed a computer vision system to detect vehicles violating stop signs using video game data.
+        I used YOLOv8 and a fine-tuned Roboflow model to monitor vehicle behavior within defined zones.
+        Violations are flagged and video evidence is recorded for review.
+        The system tracks all vehicles in the frame and monitors the speed of the vehicle when the front wheel is close to the white line. By analyzing the speed, the system can determine if the vehicle is violating the stop sign or not.
+
+      - layout: top-middle
         title: Claim Verification Using Generated Data by ChatGPT and Wikipedia
         #link: github.com/Leonnorblad/fact-verification
         additional_links:
