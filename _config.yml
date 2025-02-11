@@ -31,13 +31,21 @@ about_content: |
   
   Currently, I work as an AI Consultant at <a href="https://www.predli.com/" target="_blank">Predli Consulting</a>, where I help clients take their AI journey to the next level by unlocking the potential of cutting-edge technology.
 
+### Current projects section ###
+content:
+  - title: Current projects
+    layout: list
+    content:
+      - layout: top-middle
+        title: TBA 🤫
+
 ### Projects section ####
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Competence Matching - AI-driven job matching system
-        sub_title: Hobby project / Dec 2024 - Feb 2025
+        title: Competence Matching
+        sub_title: "AI-driven job matching system | Dec 2024 - Feb 2025"
         additional_links:
           - title: Github
             icon: fab fa-github
