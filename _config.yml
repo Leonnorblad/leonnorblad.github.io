@@ -44,6 +44,26 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        title: Competence Matching
+        sub_title: AI-driven job matching system
+        additional_links:
+          - title: Github
+            icon: fab fa-github
+            url: github.com/Leonnorblad/CompetenceMatching
+        description: |
+          Developed a lightweight job matching system that runs entirely on your local machine using small open-source LLMs.
+          The system helps match your resume with relevant job listings by combining structured metadata filtering with semantic search.
+          
+          **How it works:** Pre-defined tags are extracted from each job listing and saved as metadata for each chunk in the vector database. During matching, an LLM converts the user’s requirements into a search query to find relevant job listings. An ideal job listing is then generated and used for semantic similarity to identify the most relevant matches.
+          
+          The 3 steps of the TUI:
+          - Email Collection: Create a vector database of job listings with extracted metadata
+          - Resume Upload: Parses and summarizes your resume section by section
+          - Requirements Matching: Uses an LLM to generate an ideal job listing based on your profile and preferences, then finds matches using semantic similarity
+
+          All processing runs locally without requiring API calls, making it both private and cost-effective. The system uses Llama, Chroma, Langchain, and other open-source tools to deliver efficient matching results.
+
+      - layout: top-middle
         title: Stop Sign Violation Detection
         additional_links:
           - title: Github
@@ -68,25 +88,6 @@ content:
           **How it works:** You provide a brief project description, and the system analyzes your GitHub profile while gathering relevant resources from GitHub, arXiv, and YouTube. It identifies your skills, finds similar projects, and generates a personalized roadmap with actionable steps to get you started.
           This approach eliminates the need for tedious research, allowing you to dive straight into building.
 
-      - layout: top-middle
-        title: Competence Matching
-        sub_title: AI-driven job matching system
-        additional_links:
-          - title: Github
-            icon: fab fa-github
-            url: github.com/Leonnorblad/CompetenceMatching
-        description: |
-          Developed a lightweight job matching system that runs entirely on your local machine using small open-source LLMs.
-          The system helps match your resume with relevant job listings by combining structured metadata filtering with semantic search.
-          
-          **How it works:** Pre-defined tags are extracted from each job listing and saved as metadata for each chunk in the vector database. During matching, an LLM converts the user’s requirements into a search query to find relevant job listings. An ideal job listing is then generated and used for semantic similarity to identify the most relevant matches.
-          
-          The 3 steps of the TUI:
-          - Email Collection: Create a vector database of job listings with extracted metadata
-          - Resume Upload: Parses and summarizes your resume section by section
-          - Requirements Matching: Uses an LLM to generate an ideal job listing based on your profile and preferences, then finds matches using semantic similarity
-
-          All processing runs locally without requiring API calls, making it both private and cost-effective. The system uses Llama, Chroma, Langchain, and other open-source tools to deliver efficient matching results.
 
       - layout: top-middle
         title: Claim Verification Using Generated Data by ChatGPT and Wikipedia
@@ -112,12 +113,12 @@ content:
             icon: fab fa-github
             url: github.com/Leonnorblad/SeqAlignR
         description: |
-         [![](https://cranlogs.r-pkg.org/badges/grand-total/SeqAlignR?color=brightgreen)](https://cran.r-project.org/package=SeqAlignR)
-
          As a part of the LiU course Bioinformatics 732A51, I developed an R package for sequence alignment and visualization.
          The package uses the Needleman-Wunsch algorithm to align biological sequences such as protein or nucleotide sequences.
          It also provides the option to visualize the alignment in a matrix plot with arrows illustrating the paths and scores of different alignments.
          The package is available on CRAN and can be installed to R simply by running `install.packages("SeqAlignR")`.
+
+         The package current has: [![](https://cranlogs.r-pkg.org/badges/grand-total/SeqAlignR?color=brightgreen)](https://cran.r-project.org/package=SeqAlignR)!🚀
 
       - layout: top-middle
         title: LLM - detect AI generated text
