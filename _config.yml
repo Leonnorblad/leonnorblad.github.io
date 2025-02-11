@@ -16,7 +16,7 @@ darkmode: false
 # Social links
 github_username: leonnorblad
 linkedin_username: leonardpn
-#orcid_username: 0009-0004-8562-4118
+# orcid_username: 0009-0004-8562-4118
 
 additional_links:
   - title: Kaggle
@@ -27,8 +27,8 @@ additional_links:
 about_title: About Me
 about_profile_image: images/profilepic.jpg
 about_content: |
-  Absolutely addicted to everything AI and machine learning. I’m passionate about turning innovative ideas into reality and constantly seeking new challenges.
-  Currently, I work as an AI Consultant at <a href="https://www.predli.com/" target="_blank">Predli Consulting</a>, where I help clients take their AI journey to the next level by unlocking the potential of cutting-edge technology.
+    Absolutely addicted to everything AI and machine learning. I’m passionate about turning innovative ideas into reality and constantly seeking new challenges.
+    Currently, I work as an AI Consultant at <a href="https://www.predli.com/" target="_blank">Predli Consulting</a>, where I help clients take their AI journey to the next level by unlocking the potential of cutting-edge technology.
 
 ### Current projects section ###
 content:
@@ -38,7 +38,7 @@ content:
       - layout: top-middle
         title: TBA
         description: |
-          Whats up next? Who knows? 🚀
+            What's up next? Who knows? 🚀
 
 ### Projects section ####
 - title: Projects # Title for the section
@@ -55,7 +55,7 @@ content:
         Developed a computer vision system to detect vehicles violating stop signs using video game data. In this project I utilized YOLOv8 and a fine-tuned Roboflow model to monitor vehicle behavior within defined zones. Violations are flagged and video evidence is recorded for review. The system tracks all vehicles in the frame and monitors the speed of the vehicle when the front wheel is close to the white line. By analyzing the speed, the system can determine if the vehicle is violating the stop sign or not.
 
     - layout: top-middle
-      title: Project kickstarter
+      title: Project Kickstarter
       sub_title: Kaggle competition
       additional_links:
         - title: Kaggle
@@ -87,7 +87,7 @@ content:
         - Built email parsing support for multiple formats including Outlook and other providers
         - Developed an LLM-powered query generator that converts natural language requirements into structured database queries
         - Integrated geolocation features for precise distance-based job searching
-        
+
         The 3 steps of the TUI:
         1. Email Collection: Create a vector database of job listings with extracted metadata
         2. Resume Upload: Parses and summarizes your resume section by section
@@ -95,142 +95,142 @@ content:
 
         All processing runs locally without requiring API calls, making it both private and cost-effective. The system uses Llama, Chroma, Langchain, and other open-source tools to deliver efficient matching results.
 
-    - layout: top-middle
-      title: Master thesis at RISE
-      sub_title: Damage detection in circular fashion
-      description: |
-        During the spring of 2024, I completed my master's thesis at the Research Institutes of Sweden (<a href="https://ri.se" target="_blank">ri.se</a>).
-        My thesis was part of the EU project Circular and Sustainable Textile and Clothing (<a href="https://cisutac.eu" target="_blank">cisutac.eu</a>), a major initiative aimed at increasing textile circularity across Europe.
+      - layout: top-middle
+        title: Master thesis at RISE
+        sub_title: Damage detection in circular fashion
+        description: |
+            During the spring of 2024, I completed my master's thesis at the Research Institutes of Sweden (<a href="https://ri.se" target="_blank">ri.se</a>).
+            My thesis was part of the EU project Circular and Sustainable Textile and Clothing (<a href="https://cisutac.eu" target="_blank">cisutac.eu</a>), a major initiative aimed at increasing textile circularity across Europe.
 
-        The focus of my thesis was developing a computer vision model to support automatic sorting decisions in the textile recycling process.
-        The model captured images of garments laid flat on a table and accurately detected defects, such as holes and stains.
-        These detections serve as a critical input for guiding sorting decisions, helping to improve the efficiency and sustainability of textile recycling.
-        
-        Test my model on 🤗:  <a href="https://huggingface.co/spaces/Leonnorblad/FashionDamageDetection" target="_blank">huggingface</a>
+            The focus of my thesis was developing a computer vision model to support automatic sorting decisions in the textile recycling process.
+            The model captured images of garments laid flat on a table and accurately detected defects, such as holes and stains.
+            These detections serve as a critical input for guiding sorting decisions, helping to improve the efficiency and sustainability of textile recycling.
 
-    - layout: top-middle
-      title: Claim Verification Using Generated Data by ChatGPT and Wikipedia
-      additional_links:
-        - title: Github
-          icon: fab fa-github
-          url: github.com/Leonnorblad/fact-verification
-      description: |
-        As a part of the LiU text-mining 732A81 course, I decided to dive deeper into the task of fact verification.
-        The model I developed analyzes a user input string and predicts its truthfulness. This is performed by
-        comparing the input string to a paragraph of evidence. To extract claims and evidence to train the model I
-        scraped Wikipedia pages and then fed the articles together with instructions to generate a claim to ChatGPT
-        with the help of OpenAIs API. I then embedded the claims and evidence using BERT and trained the classification network.
-        Code and pdf report is available on my GitHub.
+            Test my model on 🤗: <a href="https://huggingface.co/spaces/Leonnorblad/FashionDamageDetection" target="_blank">huggingface</a>
 
-    - layout: top-middle
-      title: R Package - SeqAlignR
-      link: cran.r-project.org/web/packages/SeqAlignR
-      additional_links:
-        - title: Github
-          icon: fab fa-github
-          url: github.com/Leonnorblad/SeqAlignR
-      description: |
-        As a part of the LiU course Bioinformatics 732A51, I developed an R package for sequence alignment and visualization.
-        The package uses the Needleman-Wunsch algorithm to align biological sequences such as protein or nucleotide sequences.
-        It also provides the option to visualize the alignment in a matrix plot with arrows illustrating the paths and scores of different alignments.
-        The package is available on CRAN and can be installed to R simply by running `install.packages("SeqAlignR")`.
+      - layout: top-middle
+        title: Claim Verification Using Generated Data by ChatGPT and Wikipedia
+        additional_links:
+          - title: Github
+            icon: fab fa-github
+            url: github.com/Leonnorblad/fact-verification
+        description: |
+          As a part of the LiU text-mining 732A81 course, I decided to dive deeper into the task of fact verification.
+          The model I developed analyzes a user input string and predicts its truthfulness. This is performed by
+          comparing the input string to a paragraph of evidence. To extract claims and evidence to train the model I
+          scraped Wikipedia pages and then fed the articles together with instructions to generate a claim to ChatGPT
+          with the help of OpenAIs API. I then embedded the claims and evidence using BERT and trained the classification network.
+          Code and pdf report is available on my GitHub.
 
-    - layout: top-middle
-      title: LLM - detect AI generated text
-      additional_links:
-        - title: Kaggle
-          icon: fab fa-kaggle
-          url: kaggle.com/competitions/llm-detect-ai-generated-text
-      description: |
-        Competition hosted by Kaggle.
-        The task was to distinguish between essays written by a large language model and essays written by a human.
-        Together with my two teammates <a href="https://www.linkedin.com/in/elias-forsblom/" target="_blank">Elias Forsblom</a> and <a href="https://www.linkedin.com/in/filip-furuhed" target="_blank"> Filip Furuhed</a>  we developed an ensemble model consisting of Multinomial Naive Bayes,
-        Stochastic Gradient Descent (with modified Huber loss), LightGBM (gradient boosting model), and CatBoost (gradient boosting on decision trees).
-        A key aspect of our solution, except the use of an ensemble model, was to use a large ngram in our vectorization of the text.
-        Our final submission reached a private LB AUC score of 0.893, giving us a top 36% placement.
+      - layout: top-middle
+        title: R Package - SeqAlignR
+        link: cran.r-project.org/web/packages/SeqAlignR
+        additional_links:
+          - title: Github
+            icon: fab fa-github
+            url: github.com/Leonnorblad/SeqAlignR
+        description: |
+         As a part of the LiU course Bioinformatics 732A51, I developed an R package for sequence alignment and visualization.
+         The package uses the Needleman-Wunsch algorithm to align biological sequences such as protein or nucleotide sequences.
+         It also provides the option to visualize the alignment in a matrix plot with arrows illustrating the paths and scores of different alignments.
+         The package is available on CRAN and can be installed to R simply by running `install.packages("SeqAlignR")`.
 
-    - layout: top-middle
-      title: Predict student performance from gameplay
-      additional_links:
-        - title: Kaggle
-          icon: fab fa-kaggle
-          url: kaggle.com/competitions/predict-student-performance-from-game-play
-      description: |
-        Competition hosted by Kaggle.
-        The task was to predict the future performance based on a student's gameplay in an educational game.
-        According to our review of the game, the player must pay attention at specific points to answer the questions correctly.
-        Because of this, me and my teammate <a href="https://www.linkedin.com/in/elias-forsblom/" target="_blank">Elias Forsblom</a> decided to base our features on the number of clicks and time spent in different rooms in the game.
-        In total, the player had to answer 18 different questions at three different levels.
-        We leveraged XGBoost's capability of ranking features by importance to find a subset of relevant features for each of the 18 questions.
-        We then fitted both a neural network and an XGBoost model on the selected features.
-        This was a great learning experience as it was our first time attending a competition on Kaggle.
-        Our solution was novel but unfortunately did not perform well in the competition, leaving us on a top 61% placement.
+      - layout: top-middle
+        title: LLM - detect AI generated text
+        additional_links:
+          - title: Kaggle
+            icon: fab fa-kaggle
+            url: kaggle.com/competitions/llm-detect-ai-generated-text
+        description: |
+          Competition hosted by Kaggle.
+          The task was to distinguish between essays written by a large language model and essays written by a human.
+          Together with my two teammates <a href="https://www.linkedin.com/in/elias-forsblom/" target="_blank">Elias Forsblom</a> and <a href="https://www.linkedin.com/in/filip-furuhed" target="_blank">Filip Furuhed</a> we developed an ensemble model consisting of Multinomial Naive Bayes,
+          Stochastic Gradient Descent (with modified Huber loss), LightGBM (gradient boosting model), and CatBoost (gradient boosting on decision trees).
+          A key aspect of our solution, except the use of an ensemble model, was to use a large ngram in our vectorization of the text.
+          Our final submission reached a private LB AUC score of 0.893, giving us a top 36% placement.
 
-    - layout: top-middle
-      title: Bachelor thesis at Atrium Ljungberg
-      sub_title: Forecasting service matters
-      additional_links:
-        - title: Github
-          icon: fab fa-github
-          url: github.com/Leonnorblad/Kandidatuppsats
-      description: |
-        Me and my partner <a href="https://www.linkedin.com/in/roosisabella" target="_blank">Isabella Roos</a> developed forecasting models predicting service matters for the properties at <a href="https://www.al.se/" target="_blank">Atrium Ljungberg</a>.
-        The forecasts can be used to make data-driven staff schedule decisions.
-        By adjusting the staffing plan to the volume of service matters both overstaffing and understaffing can be avoided.
-        This benefits employees, the company, and enhances the overall customer experience.
-        The most successful strategy was found to model each area separately.
-        Traditional statistical time-series modeling, dynamic regression models, and machine learning methods were explored.
-        Summary, code, and full pdf (abstract in English) are available on my GitHub.
+      - layout: top-middle
+        title: Predict student performance from gameplay
+        additional_links:
+          - title: Kaggle
+            icon: fab fa-kaggle
+            url: kaggle.com/competitions/predict-student-performance-from-game-play
+        description: |
+          Competition hosted by Kaggle.
+          The task was to predict the future performance based on a student's gameplay in an educational game.
+          According to our review of the game, the player must pay attention at specific points to answer the questions correctly.
+          Because of this, me and my teammate <a href="https://www.linkedin.com/in/elias-forsblom/" target="_blank">Elias Forsblom</a> decided to base our features on the number of clicks and time spent in different rooms in the game.
+          In total, the player had to answer 18 different questions at three different levels.
+          We leveraged XGBoost's capability of ranking features by importance to find a subset of relevant features for each of the 18 questions.
+          We then fitted both a neural network and an XGBoost model on the selected features.
+          This was a great learning experience as it was our first time attending a competition on Kaggle.
+          Our solution was novel but unfortunately did not perform well in the competition, leaving us on a top 61% placement.
+
+      - layout: top-middle
+        title: Bachelor thesis at Atrium Ljungberg
+        sub_title: Forecasting service matters
+        additional_links:
+          - title: Github
+            icon: fab fa-github
+            url: github.com/Leonnorblad/Kandidatuppsats
+        description: |
+         Me and my partner <a href="https://www.linkedin.com/in/roosisabella" target="_blank">Isabella Roos</a> developed forecasting models predicting service matters for the properties at <a href="https://www.al.se/" target="_blank">Atrium Ljungberg</a>.
+         The forecasts can be used to make data-driven staff schedule decisions.
+         By adjusting the staffing plan to the volume of service matters both overstaffing and understaffing can be avoided.
+         This benefits employees, the company, and enhances the overall customer experience.
+         The most successful strategy was found to model each area separately.
+         Traditional statistical time-series modeling, dynamic regression models, and machine learning methods were explored.
+         Summary, code, and full pdf (abstract in English) are available on my GitHub.
 
 #### Experience Section ###
-- title: Experience # Title for the section
-  layout: list # Type of content section (list/text)
-  content:
-    - layout: left
-      title: Microtec
-      sub_title: AI Intern
-      caption: January 2023 - August 2023
-      description: |
-        Microtec develops intelligent wood scanners all over the world.
-        As a member of the R&D team, my responsibilities included the development and implementation of machine learning solutions
-        to extend the functionality of the wood scanners. I worked 8-10 hours per week during my studies and full-time during the summer.
-
-    - layout: left
-      title: Linköping University
-      sub_title: Teaching assistant
-      caption: 2020 - 2022
-      description: |
-        I worked as a teaching assistant in several courses at Linköping University.
-        My responsibilities included holding lab sessions, grading assignments, and answering student questions.
-        I found this to be a great way to deepen my understanding of the course material and to help others.
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Microtec
+        sub_title: AI Intern
+        caption: January 2023 - August 2023
+        description: |
+          Microtec develops intelligent wood scanners all over the world.
+          As a member of the R&D team, my responsibilities included the development and implementation of machine learning solutions
+          to extend the functionality of the wood scanners. I worked 8-10 hours per week during my studies and full-time during the summer.
+    
+      - layout: left
+        title: Linköping University
+        sub_title: Teaching assistant
+        caption: 2020 - 2022
+        description: |
+          I worked as a teaching assistant in several courses at Linköping University.
+          My responsibilities included holding lab sessions, grading assignments, and answering student questions.
+          I found this to be a great way to deepen my understanding of the course material and to help others.
 
 ### Education Section ###
-- title: Education # Title for the section
-  layout: list # Type of content section (list/text)
-  content:
-    - layout: left
-      title: Linköping University
-      link: https://liu.se/utbildning/program/f7ksa
-      link_text: Statistik och Dataanalys
-      caption: 2019 - 2022
-      sub_title: BSc Statistics and Data Analysis
-      description: |
-        I found this program to be the perfect start for my data science career.
-        The program was a mix of established statistical methods, programming, mathematics, and machine learning.
-        Most courses were divided into the lecture + lab + computer exam structure.
-        I found this teaching technique to be very effective as it gives a deep understanding of the theory as well as practical skills.
-        Many courses also contained a small project, allowing me to be creative and apply the learned methods to real data, something I enjoyed.
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Linköping University
+        link: https://liu.se/utbildning/program/f7ksa
+        link_text: Statistik och Dataanalys
+        caption: 2019 - 2022
+        sub_title: BSc Statistics and Data Analysis
+        description: |
+          I found this program to be the perfect start for my data science career.
+          The program was a mix of established statistical methods, programming, mathematics, and machine learning.
+          Most courses were divided into the lecture + lab + computer exam structure.
+          I found this teaching technique to be very effective as it gives a deep understanding of the theory as well as practical skills.
+          Many courses also contained a small project, allowing me to be creative and apply the learned methods to real data, something I enjoyed.
 
-    - layout: left
-      title: Linköping University
-      link: https://liu.se/en/education/program/f7mml
-      link_text: Statistics and Machine Learning
-      caption: 2022 - 2024
-      sub_title: MSc Statistics and Machine Learning
-      description: |
-        After the BSc program introduced me to the world of data science, I was eager to learn more.
-        The program followed a similar structure as the BSc program, but with more advanced models and a deeper dive into the methods.
-        This extended my toolbox to work with new data types and models. I will graduate in June 2024, thrilled to see what the future holds.
+      - layout: left
+        title: Linköping University
+        link: https://liu.se/en/education/program/f7mml
+        link_text: Statistics and Machine Learning
+        caption: 2022 - 2024
+        sub_title: MSc Statistics and Machine Learning
+        description: |
+          After the BSc program introduced me to the world of data science, I was eager to learn more.
+          The program followed a similar structure as the BSc program, but with more advanced models and a deeper dive into the methods.
+          This extended my toolbox to work with new data types and models. I will graduate in June 2024, thrilled to see what the future holds.
 
   - title: Extracurricular activity
     layout: list
@@ -244,24 +244,24 @@ content:
           My main responsibilities were planning, ordering and preparing food for all events. As part of the group, I also took part in the overall planning of all activities.
 
 ### My interests Section ###
-- title: A little more about me 
-  layout: text
-  content: |
-    ## **Programming languages**
-    - Python
-    - R
-    - SQL
-    - SAS
+  - title: A little more about me 
+    layout: text
+    content: |
+      ## **Programming languages**
+      - Python
+      - R
+      - SQL
+      - SAS
 
-    ## **Tools**
-    - Git
-    - PyTorch
-    - TensorFlow
-    - Ollama
-    - MiniTab
-    - SPSS
+      ## **Tools**
+      - Git
+      - PyTorch
+      - TensorFlow
+      - Ollama
+      - MiniTab
+      - SPSS
 
-    Thats it for now! If you want to know more about me, feel free to reach out to me on LinkedIn or
+      That's it for now! If you want to know more about me, feel free to reach out to me on LinkedIn or send me an email.
 
 
 # Footer
@@ -276,4 +276,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
