@@ -31,20 +31,13 @@ about_content: |
   
   Currently, I work as an AI Consultant at <a href="https://www.predli.com/" target="_blank">Predli Consulting</a>, where I help clients take their AI journey to the next level by unlocking the potential of cutting-edge technology.
 
-### Current projects section ###
-content:
-  - title: Current projects
-    layout: list
-    content:
-      - layout: top-middle
-        title: TBA
-
 ### Projects section ####
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
         title: Competence Matching
+        sub_title: Dec 2024 - Feb 2025
         sub_title: AI-driven job matching system
         additional_links:
           - title: Github
@@ -130,7 +123,7 @@ content:
          It also provides the option to visualize the alignment in a matrix plot with arrows illustrating the paths and scores of different alignments.
          The package is available on CRAN and can be installed to R simply by running `install.packages("SeqAlignR")`.
 
-         The package current has: [![](https://cranlogs.r-pkg.org/badges/grand-total/SeqAlignR?color=brightgreen)](https://cran.r-project.org/package=SeqAlignR)!🚀
+         The package current has: [![](https://cranlogs.r-pkg.org/badges/grand-total/SeqAlignR?color=brightgreen)](https://cran.r-project.org/package=SeqAlignR)! 🚀
 
       - layout: top-middle
         title: LLM - detect AI generated text
