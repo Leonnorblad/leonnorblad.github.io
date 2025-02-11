@@ -71,19 +71,14 @@ content:
             icon: fab fa-github
             url: github.com/Leonnorblad/CompetenceMatching
         description: |
-          Developed a lightweight job matching system that runs entirely on your local machine using small open-source LLMs. The system helps match your resume with relevant job listings by combining structured metadata filtering with semantic search.
-
-          Key features:
-          - Created a custom Terminal User Interface (TUI) with an 80's aesthetic
-          - Implemented a modified version of HyDe RAG to generate and match ideal job listings
-          - Built email parsing support for multiple formats including Outlook and other providers
-          - Developed an LLM-powered query generator that converts natural language requirements into structured database queries
-          - Integrated geolocation features for precise distance-based job searching
-
+          Developed a lightweight job matching system that runs entirely on your local machine using small open-source LLMs.
+          The system helps match your resume with relevant job listings by combining structured metadata filtering with semantic search.
+          **How it works:** Pre-defined tags are extracted from each job listing and saved as metadata for each chunk in the vector database. During matching, an LLM converts the user’s requirements into a search query to find relevant job listings. An ideal job listing is then generated and used for semantic similarity to identify the most relevant matches.
+          
           The 3 steps of the TUI:
-          1. Email Collection: Create a vector database of job listings with extracted metadata
-          2. Resume Upload: Parses and summarizes your resume section by section
-          3. Requirements Matching: Uses an LLM to generate an ideal job listing based on your profile and preferences, then finds matches using semantic similarity
+          - Email Collection: Create a vector database of job listings with extracted metadata
+          - Resume Upload: Parses and summarizes your resume section by section
+          - Requirements Matching: Uses an LLM to generate an ideal job listing based on your profile and preferences, then finds matches using semantic similarity
 
           All processing runs locally without requiring API calls, making it both private and cost-effective. The system uses Llama, Chroma, Langchain, and other open-source tools to deliver efficient matching results.
 
