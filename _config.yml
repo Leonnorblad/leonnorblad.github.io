@@ -36,9 +36,22 @@ about_content: |
 ### Current projects section ###
 content:
 ### Projects section ####
-  - title: Projects # Title for the section
+  - title: Hobby projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-middle
+        title: Laga Billigt
+        sub_title: "Autonomous AI-powered Instagram page | March - June 2025"
+        additional_links:
+          - title: Instagram
+            icon: fab fa-instagram
+            url: https://www.instagram.com/lagabilligt
+        description: |
+          Developed an autonomous system that creates and publishes weekly cooking inspiration on Instagram based on Hemköp’s current offers.
+          The pipeline retrieves the weekly deals from the website, converts and parses them into structured data, and stores them in an SQL database.
+          An LLM filters and ranks the offers, generates recipes and captions, and uses a text-to-image model to produce corresponding dish images.
+          All assets are compiled into a carousel post and automatically published via the Instagram API.
+      
       - layout: top-middle
         title: Competence Matching
         sub_title: "AI-driven job matching system | Dec 2024 - Feb 2025"
@@ -84,19 +97,10 @@ content:
           I used YOLOv8 and a fine-tuned Roboflow model to monitor vehicle behavior within defined zones.
           Violations are flagged and video evidence is recorded for review.
           The system tracks all vehicles in the frame and monitors the speed of the vehicle when the front wheel is close to the white line. By analyzing the speed, the system can determine if the vehicle is violating the stop sign or not.
+        
+          Robloflow requested a blog post on this project which I wrote and published on [Roboflow](https://blog.roboflow.com/stop-sign-violation-detection/).
 
-      - layout: top-middle
-        title: Master thesis at RISE
-        sub_title: "Damage detection in circular fashion | Jan 2024 - May 2024"
-        description: |
-          During the spring of 2024, I completed my master's thesis at the Research Institutes of Sweden (<a href="https://ri.se" target="_blank">ri.se</a>).
-          My thesis was part of the EU project Circular and Sustainable Textile and Clothing (<a href="https://cisutac.eu" target="_blank">cisutac.eu</a>), a major initiative aimed at increasing textile circularity across Europe.
-
-          The focus of my thesis was developing a computer vision model to support automatic sorting decisions in the textile recycling process.
-          The model captured images of garments laid flat on a table and accurately detected defects, such as holes and stains.
-          These detections serve as a critical input for guiding sorting decisions, helping to improve the efficiency and sustainability of textile recycling.
-
-          Try my model on <a href="https://huggingface.co/spaces/Leonnorblad/FashionDamageDetection" target="_blank">Huggingface</a> 🤗
+          The GitHub repository has [![GitHub stars](https://img.shields.io/github/stars/Leonnorblad/DetStopViolation?style=social&label=Stars)](https://github.com/Leonnorblad/DetStopViolation)
 
       - layout: top-middle
         title: Claim Verification
@@ -115,21 +119,38 @@ content:
           Code and pdf report is available on my GitHub.
 
       - layout: top-middle
-        title: R Package - SeqAlignR
-        sub_title: "Sequence alignment and visualization tool | Nov 2023 - Dec 2023"
-        link: cran.r-project.org/web/packages/SeqAlignR
-        #link: github.com/Leonnorblad/SeqAlignR
+        title: Predict student performance from gameplay
+        sub_title: "Kaggle competition | Feb 2023 - Jun 2023"
         additional_links:
-          - title: Github
-            icon: fab fa-github
-            url: github.com/Leonnorblad/SeqAlignR
+          - title: Kaggle
+            icon: fab fa-kaggle
+            url: kaggle.com/competitions/predict-student-performance-from-game-play
         description: |
-         As a part of the LiU course Bioinformatics 732A51, I developed an R package for sequence alignment and visualization.
-         The package uses the Needleman-Wunsch algorithm to align biological sequences such as protein or nucleotide sequences.
-         It also provides the option to visualize the alignment in a matrix plot with arrows illustrating the paths and scores of different alignments.
-         The package is available on CRAN and can be installed to R simply by running `install.packages("SeqAlignR")`.
+          Competition hosted by Kaggle.
+          The task was to predict the future performance based on a student's gameplay in an educational game.
+          According to our review of the game, the player must pay attention at specific points to answer the questions correctly.
+          Because of this, me and my teammate <a href="https://www.linkedin.com/in/elias-forsblom/" target="_blank">Elias Forsblom</a> decided to base our features on the number of clicks and time spent in different rooms in the game.
+          In total, the player had to answer 18 different questions at three different levels.
+          We leveraged XGBoost's capability of ranking features by importance to find a subset of relevant features for each of the 18 questions.
+          We then fitted both a neural network and an XGBoost model on the selected features.
+          This was a great learning experience as it was our first time attending a competition on Kaggle.
+          Our solution was novel but unfortunately did not perform well in the competition, leaving us on a top 61% placement.
 
-         The package current has: [![](https://cranlogs.r-pkg.org/badges/grand-total/SeqAlignR?color=brightgreen)](https://cran.r-project.org/package=SeqAlignR)! 🚀
+  - title: University projects
+    layout: list
+    content:
+      - layout: top-middle
+        title: Master thesis at RISE
+        sub_title: "Damage detection in circular fashion | Jan 2024 - May 2024"
+        description: |
+          During the spring of 2024, I completed my master's thesis at the Research Institutes of Sweden (<a href="https://ri.se" target="_blank">ri.se</a>).
+          My thesis was part of the EU project Circular and Sustainable Textile and Clothing (<a href="https://cisutac.eu" target="_blank">cisutac.eu</a>), a major initiative aimed at increasing textile circularity across Europe.
+
+          The focus of my thesis was developing a computer vision model to support automatic sorting decisions in the textile recycling process.
+          The model captured images of garments laid flat on a table and accurately detected defects, such as holes and stains.
+          These detections serve as a critical input for guiding sorting decisions, helping to improve the efficiency and sustainability of textile recycling.
+
+          Try my model on <a href="https://huggingface.co/spaces/Leonnorblad/FashionDamageDetection" target="_blank">Huggingface</a> 🤗
 
       - layout: top-middle
         title: LLM - detect AI generated text
@@ -148,22 +169,21 @@ content:
           Our final submission reached a private LB AUC score of 0.893, giving us a top 36% placement.
 
       - layout: top-middle
-        title: Predict student performance from gameplay
-        sub_title: "Kaggle competition | Feb 2023 - Jun 2023"
+        title: R Package - SeqAlignR
+        sub_title: "Sequence alignment and visualization tool | Nov 2023 - Dec 2023"
+        link: cran.r-project.org/web/packages/SeqAlignR
+        #link: github.com/Leonnorblad/SeqAlignR
         additional_links:
-          - title: Kaggle
-            icon: fab fa-kaggle
-            url: kaggle.com/competitions/predict-student-performance-from-game-play
+          - title: Github
+            icon: fab fa-github
+            url: github.com/Leonnorblad/SeqAlignR
         description: |
-          Competition hosted by Kaggle.
-          The task was to predict the future performance based on a student's gameplay in an educational game.
-          According to our review of the game, the player must pay attention at specific points to answer the questions correctly.
-          Because of this, me and my teammate <a href="https://www.linkedin.com/in/elias-forsblom/" target="_blank">Elias Forsblom</a> decided to base our features on the number of clicks and time spent in different rooms in the game.
-          In total, the player had to answer 18 different questions at three different levels.
-          We leveraged XGBoost's capability of ranking features by importance to find a subset of relevant features for each of the 18 questions.
-          We then fitted both a neural network and an XGBoost model on the selected features.
-          This was a great learning experience as it was our first time attending a competition on Kaggle.
-          Our solution was novel but unfortunately did not perform well in the competition, leaving us on a top 61% placement.
+         As a part of the LiU course Bioinformatics 732A51, I developed an R package for sequence alignment and visualization.
+         The package uses the Needleman-Wunsch algorithm to align biological sequences such as protein or nucleotide sequences.
+         It also provides the option to visualize the alignment in a matrix plot with arrows illustrating the paths and scores of different alignments.
+         The package is available on CRAN and can be installed to R simply by running `install.packages("SeqAlignR")`.
+
+         The package current has: [![](https://cranlogs.r-pkg.org/badges/grand-total/SeqAlignR?color=brightgreen)](https://cran.r-project.org/package=SeqAlignR)! 🚀
 
       - layout: top-middle
         title: Bachelor thesis at Atrium Ljungberg
@@ -254,6 +274,7 @@ content:
       - R
       - SQL
       - SAS
+      - TypeScript
 
       ## **Tools**
       - Git
