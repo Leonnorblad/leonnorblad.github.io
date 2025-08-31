@@ -27,11 +27,18 @@ additional_links:
 about_title: About Me
 about_profile_image: images/profilepic.jpg
 about_content: |
-  Absolutely addicted to everything related to AI or machine learning. I’m passionate about turning innovative ideas into reality and constantly seeking new challenges.
+  Hi, my name is Leonard and I work as an AI Consultant at <a href="https://www.predli.com/" target="_blank">Predli Consulting</a>.
   
-  Currently, I work as an AI Consultant at <a href="https://www.predli.com/" target="_blank">Predli Consulting</a>, where I help clients take their AI journey to the next level by unlocking the potential of cutting-edge technology.
+  🔬 I use statistics, machine learning, and generative AI to solve problems in innovative ways.
+  
+  🤔 I don't think the latest LLM is the perfect solution for any problem.
+  
+  👥 I thrive in collaborative environments and prefer to succeed as part of a team rather than alone.
+  
+  🤝 I value the relations with my clients and colleagues higher than to be the top performer.
 
-  **How ChatGPT describes me:** Leonard is an inventive AI Engineer with an unyielding passion for harnessing AI and ML to tackle complex challenges. His expertise spans computer vision, natural language processing, predictive analytics, and data-driven decision-making, all underpinned by a solid foundation in statistics and advanced programming. Leonard’s work reflects a unique blend of analytical rigor and creative problem-solving. He transforms intricate data and real-world problems into elegant, actionable solutions using modern deep learning frameworks and statistical modeling techniques. His diverse technical background, coupled with his strategic vision and commitment to continuous learning, drives him to push the boundaries of what's possible in AI.
+  🚀 I love to explore the latest tech.
+  
 
 ### Current projects section ###
 content:
@@ -39,6 +46,20 @@ content:
   - title: Hobby projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-middle
+        title: Tell Me When
+        sub_title: "Telegram bot for schredruled web agent searches | June - August 2025"
+        additional_links:
+          - title: Telegram
+            icon: fab fa-telegram
+            url: https://t.me/TheTellMeWhenBot
+        description: |
+          Telegram bot that helps you track events and claims over time.
+          Simply define a statement e.g., *"Company X has released Product Y"*, and the bot will automatically monitor the web on a fixed schedule.
+          When it finds credible sources confirming your statement, it notifies you directly in Telegram with links to those sources.
+          You can add, review, or delete statements directly in the chat, making it easy to keep track.
+          The bot is live and you can try it by clicking the telegram logo above.
+
       - layout: top-middle
         title: Laga Billigt
         sub_title: "Autonomous AI-powered Instagram page | March - June 2025"
