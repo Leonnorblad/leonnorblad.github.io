@@ -48,7 +48,7 @@ content:
     content:
       - layout: top-middle
         title: Tell Me When
-        sub_title: "Telegram bot for schredruled web agent searches | June - August 2025"
+        sub_title: "Telegram bot for scheduled web agent searches | June - August 2025"
         additional_links:
           - title: Telegram
             icon: fab fa-telegram
