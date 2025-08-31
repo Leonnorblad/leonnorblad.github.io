@@ -287,29 +287,29 @@ content:
           My main responsibilities was planning, ordering and preparing food for all events. As part of the group, I also took part in the overall planning of all activities.
 
 ### My interests Section ###
-  - title: A little more about me 
-    layout: text
-    content: |
-      ## **Programming languages**
-      - Python
-      - R
-      - SQL
-      - SAS
-      - TypeScript
+  # - title: A little more about me 
+  #   layout: text
+  #   content: |
+  #     ## **Programming languages**
+  #     - Python
+  #     - R
+  #     - SQL
+  #     - SAS
+  #     - TypeScript
 
-      ## **Tools**
-      - Git
-      - OpenAI API
-      - Huggingface
-      - Roboflow
-      - Ollama
-      - Langchain
-      - PyTorch
-      - TensorFlow
-      - MiniTab
-      - SPSS
+  #     ## **Tools**
+  #     - Git
+  #     - OpenAI API
+  #     - Huggingface
+  #     - Roboflow
+  #     - Ollama
+  #     - Langchain
+  #     - PyTorch
+  #     - TensorFlow
+  #     - MiniTab
+  #     - SPSS
 
-      Thats it for now! If you want to know more about me, feel free to reach out to me on LinkedIn or send me an email.
+  #     Thats it for now! If you want to know more about me, feel free to reach out to me on LinkedIn or send me an email.
 
 # Footer
 footer_show_references: true
