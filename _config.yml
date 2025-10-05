@@ -47,6 +47,17 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        title: BookmarkGPT
+        sub_title: "Static web app for ChatGPT bookmark templates | Oct 2025"
+        description: |
+          <div style="text-align:center; margin-bottom:8px;">
+            <a href="https://leonnorblad.github.io/gpt-bookmark/" target="_blank">
+              <img src="images/BookmarkGPT.png" alt="BookmarkGPT" style="height:17px;">
+            </a>
+          </div>
+          Developed a static web app that lets users create ChatGPT bookmark templates. These templates automatically insert the current page´s URL or highlighted text into a custom prompt when activated. Try it out by clicking the logo above.
+      
+      - layout: top-middle
         title: Tell Me When
         sub_title: "Telegram bot for scheduled web agent searches | June - August 2025"
         additional_links:
