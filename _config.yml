@@ -1,5 +1,5 @@
 # Site
-repository: sproogen/resume-theme
+repository: sproogen/modern-resume-theme
 favicon: images/icon.ico
 
 # Content configuration version
@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Leonard Persson Norblad
-title: AI Engineer @ Predli Consulting
+title: AI Engineer | Data scientist @ Yellow elk
 email: leonard.norblad@gmail.com
 
 # Dark Mode (true/false/never)
@@ -27,21 +27,59 @@ additional_links:
 about_title: About Me
 about_profile_image: images/profilepic.jpg
 about_content: |
-  Hi, my name is Leonard and I work as an AI Consultant at <a href="https://www.predli.com/" target="_blank">Predli</a>.
-  
-  🔬 I use statistics, machine learning, and generative AI to solve problems in innovative ways.
-  
-  🤔 I don't think the latest LLM is the perfect solution for all problems.
-  
-  👥 I thrive in collaborative environments and prefer to succeed as part of a team rather than alone.
-  
-  🤝 I value the relations with my clients and colleagues higher than to be the top performer.
+  Hi, my name is Leonard and I work as an AI engineer and data scientist at Yellow Elk.
 
-  🚀 I love to explore the latest tech.
+  - I use statistics, machine learning, and generative AI to solve problems in innovative ways.
+  - I don't think the latest LLM is the perfect solution for all problems.
+  - I thrive in collaborative environments and prefer to succeed as part of a team rather than alone.
+  - I value the relations with my clients and colleagues higher than being the top performer.
+  - I love to explore the latest tech.
   
 
 ### Current projects section ###
 content:
+#### Experience Section ###
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Yellow Elk
+        sub_title: AI Consultant
+        caption: January 2026 - Present
+        description: |
+          Help Swedish companies move from AI ambition to real, production-ready outcomes.
+          Shape and deliver solutions end-to-end, turning business needs into robust data and AI capabilities.
+          Work closely with teams to ensure the solutions fit the domain, processes, and risk requirements.
+
+      - layout: left
+        title: Predli
+        sub_title: AI Consultant
+        caption: June 2024 - January 2026
+        description: |
+          Led and delivered AI and data science projects end-to-end, from problem framing and solution design to deployment and stakeholder alignment.
+          Built domain-adapted retrieval and reasoning workflows, document analysis pipelines, and automated report generation with traceable sources.
+          Collaborated closely with subject-matter experts to ensure high-quality, reliable outputs tailored to business needs.
+
+      - layout: left
+        title: Microtec
+        #link: https://microtec.eu/sv-s
+        #link_text: microtec.eu/sv-se
+        sub_title: AI Intern
+        caption: January 2023 - August 2023
+        description: |
+          Microtec develops intelligent wood scanners all over the world.
+          As a member of the R&D team, my responsibilities included the development and implementation of machine learning solutions
+          to extend the functionality of the wood scanners. I worked 8-10 hours per week during my studies and full-time during the summer.
+    
+      - layout: left
+        title: Linköping University
+        sub_title: Teaching assistant
+        caption: 2020 - 2022
+        description: |
+          I worked as a teaching assistant in several courses at Linköping University.
+          My responsibilities included holding lab sessions, grading assignments, and answering student questions.
+          I found this to be a great way to deepen my understanding of the course material and to help others.
+
 ### Projects section ####
   - title: Hobby projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -234,30 +272,6 @@ content:
          Traditional statistical time-series modeling, dynamic regression models, and machine learning methods were explored.
          Summary, code, and full pdf (abstract in English) are available on my GitHub.
 
-#### Experience Section ###
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Microtec
-        #link: https://microtec.eu/sv-se
-        #link_text: microtec.eu/sv-se
-        sub_title: AI Intern
-        caption: January 2023 - August 2023
-        description: |
-          Microtec develops intelligent wood scanners all over the world.
-          As a member of the R&D team, my responsibilities included the development and implementation of machine learning solutions
-          to extend the functionality of the wood scanners. I worked 8-10 hours per week during my studies and full-time during the summer.
-    
-      - layout: left
-        title: Linköping University
-        sub_title: Teaching assistant
-        caption: 2020 - 2022
-        description: |
-          I worked as a teaching assistant in several courses at Linköping University.
-          My responsibilities included holding lab sessions, grading assignments, and answering student questions.
-          I found this to be a great way to deepen my understanding of the course material and to help others.
-
 ### Education Section ###
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -327,7 +341,7 @@ footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
-remote_theme: sproogen/resume-theme
+remote_theme: sproogen/modern-resume-theme
 
 sass:
   sass_dir: _sass
