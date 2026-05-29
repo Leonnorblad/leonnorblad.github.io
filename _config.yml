@@ -27,14 +27,14 @@ additional_links:
 about_title: About Me
 about_profile_image: images/profilepic.jpg
 about_content: |
-  Hi, my name is Leonard and I work as an AI engineer and data scientist at Yellow Elk.
+  Hi, I'm Leonard, an AI consultant and data scientist at Yellow Elk, where I help
+  Swedish companies move from AI ambition to real, production-ready outcomes.
 
-  - I use statistics, machine learning, and generative AI to solve problems in innovative ways.
-  - I don't think the latest LLM is the perfect solution for all problems.
-  - I thrive in collaborative environments and prefer to succeed as part of a team rather than alone.
+  - I use statistics, machine learning, and generative AI to solve problems that actually matter to the business, not just the ones that look impressive in a demo.
+  - I believe the best solution is rarely the newest model, and I will always push back when something simpler, faster, or more robust fits better.
+  - I thrive in collaborative environments and do my best work as part of a strong team.
   - I value the relations with my clients and colleagues higher than being the top performer.
-  - I love to explore the latest tech.
-  
+  - I love tinkering with new models and tools out of pure curiosity.
 
 ### Current projects section ###
 content:
@@ -47,10 +47,12 @@ content:
         sub_title: AI Consultant
         caption: January 2026 - Present
         description: |
-          Help Swedish companies move from AI ambition to real, production-ready outcomes.
-          Shape and deliver solutions end-to-end, turning business needs into robust data and AI capabilities.
-          Work closely with teams to ensure the solutions fit the domain, processes, and risk requirements.
-
+          AI Consultant at Yellow Elk, one of Sweden's leading data analytics and AI specialist firms,
+          helping organizations turn data into better decisions across industries.
+          Guide Swedish companies from AI ambition to production-ready outcomes, shaping and
+          delivering end-to-end solutions that bridge business needs with robust data and AI capabilities.
+          Collaborate closely with client teams to ensure solutions are grounded in domain knowledge,
+          operational processes, and risk requirements — enabling measurable, lasting impact.
       - layout: left
         title: Predli
         sub_title: AI Consultant
