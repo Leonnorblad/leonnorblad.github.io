@@ -27,7 +27,7 @@ additional_links:
 about_title: /about
 about_profile_image: images/profilepic.jpg
 about_content: |
-  AI and machine learning consultant at Yellow Elk. I help Swedish enterprises turn AI ambition into production-ready systems.
+  I help Swedish enterprises turn AI ambition into production-ready systems.
   
   - I solve problems that matter to the business. Not every problem needs the latest and most expensive tech, and I take pride in choosing the right tool for the task.
   - I thrive in collaborative settings and do my best work as part of a strong team. I share knowledge freely and believe the best results come from lifting the whole team, not just delivering my own piece.
@@ -297,7 +297,7 @@ content:
         description: |
           After the BSc program introduced me to the world of data science, I was eager to learn more.
           The program followed a similar structure as the BSc program, but with more advanced models and a deeper dive into the methods.
-          This extended my toolbox to work with new data types and models. I will graduate in June 2024, thrilled to see what the future holds.
+          This extended my toolbox to work with new data types and models.
 
   - title: /etc
     layout: list
@@ -307,8 +307,8 @@ content:
         sub_title: Student association
         caption: 2020 - 2021
         description: |
-          Planned and organized festive arrangements such as party's and theme dinners with a special emphasis during the two-week introduction period.
-          My main responsibilities was planning, ordering and preparing food for all events. As part of the group, I also took part in the overall planning of all activities.
+          Planned and organized festive arrangements such as parties and theme dinners with a special emphasis during the two-week introduction period.
+          My main responsibilities were planning, ordering and preparing food for all events. As part of the group, I also took part in the overall planning of all activities.
 
 ### My interests Section ###
   # - title: A little more about me 
