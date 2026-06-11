@@ -1,0 +1,37 @@
+---
+layout: null
+permalink: /llms.txt
+---
+{%- capture nl %}
+{% endcapture -%}
+# {{ site.name }}
+
+> {{ site.title }}
+
+- GitHub: https://github.com/{{ site.github_username }}
+- LinkedIn: https://www.linkedin.com/in/{{ site.linkedin_username }}
+- Email: {{ site.email }}
+{% for link in site.additional_links %}- {{ link.title }}: {{ link.url }}
+{% endfor %}
+
+## {{ site.about_title }}
+
+{{ site.about_content }}
+{% for section in site.content %}
+## {{ section.title }}
+{% for item in section.content %}
+### {{ item.title }}{% if item.sub_title %} — {{ item.sub_title }}{% endif %}{% if item.caption %} ({{ item.caption }}){% endif %}
+{% if item.link %}- Link: {% if item.link_text %}[{{ item.link_text }}]({{ item.link }}){% else %}{{ item.link }}{% endif %}
+{% endif %}{% for l in item.additional_links %}- {{ l.title }}: {{ l.url }}
+{% endfor %}
+{%- assign desc = item.description | replace: ' target="_blank"', '' | replace: '<div style="text-align:center; margin-bottom:8px;">', '' | replace: '</div>', '' -%}
+{%- assign segs = desc | split: '<a href="' -%}
+{{ segs[0] -}}
+{%- for s in segs offset:1 -%}
+{%- assign url_split = s | split: '">' -%}
+{%- assign url = url_split[0] -%}
+{%- assign rest = url_split | slice: 1, 100 | join: '">' -%}
+{%- assign text_split = rest | split: '</a>' -%}
+[{{ text_split[0] | strip_newlines }}]({{ url }}){{ text_split | slice: 1, 100 | join: '</a>' -}}
+{%- endfor %}
+{% endfor %}{% endfor %}
