@@ -1,0 +1,70 @@
+<link rel="alternate" type="text/markdown" title="llms.txt — machine-readable resume" href="{{ '/llms.txt' | absolute_url }}">
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var f = document.querySelector('.footer-container');
+    if (!f) return;
+    var sep = document.createTextNode(' · ');
+    var a = document.createElement('a');
+    a.href = '/llms.txt';
+    a.textContent = 'llms.txt';
+    a.setAttribute('rel', 'alternate');
+    a.setAttribute('type', 'text/markdown');
+    f.appendChild(sep);
+    f.appendChild(a);
+  });
+</script>
+<noscript><style>body::after{content:"";}</style></noscript>
+<meta name="author" content="{{ site.author | default: site.name }}">
+<meta name="geo.placename" content="Stockholm, Sweden">
+<meta name="geo.region" content="SE-AB">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ site.name }}",
+  "alternateName": "Leonard Norblad",
+  "givenName": "Leonard",
+  "familyName": "Persson Norblad",
+  "url": "{{ site.url }}",
+  "image": "{{ '/images/profilepic.jpg' | absolute_url }}",
+  "jobTitle": "AI and Machine Learning Consultant",
+  "description": "{{ site.description }}",
+  "email": "mailto:{{ site.email }}",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Stockholm",
+    "addressCountry": "SE"
+  },
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Yellow Elk"
+  },
+  "alumniOf": [
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "Linköping University",
+      "url": "https://liu.se"
+    }
+  ],
+  "knowsAbout": [
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Generative AI",
+    "Large Language Models",
+    "Retrieval-Augmented Generation",
+    "Agentic Systems",
+    "Computer Vision",
+    "Statistics",
+    "Data Science",
+    "Python",
+    "R"
+  ],
+  "knowsLanguage": ["sv", "en"],
+  "sameAs": [
+    "https://github.com/{{ site.github_username }}",
+    "https://www.linkedin.com/in/{{ site.linkedin_username }}",
+    "https://www.kaggle.com/leonnorblad"
+  ]
+}
+</script>

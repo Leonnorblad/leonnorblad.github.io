@@ -9,6 +9,12 @@ version: 2
 name: Leonard Persson Norblad
 title: AI Engineer | Data scientist @ Yellow elk
 email: leonard.norblad@gmail.com
+description: AI and machine learning consultant based in Stockholm, Sweden. Helping Swedish enterprises turn AI ambition into production-ready systems through statistics, machine learning, and generative AI.
+tagline: AI & ML consultant in Stockholm — production-ready AI for Swedish enterprises
+url: https://leonnorblad.github.io
+author: Leonard Persson Norblad
+lang: en
+location: Stockholm, Sweden
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -348,3 +354,4 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+ - jekyll-sitemap
