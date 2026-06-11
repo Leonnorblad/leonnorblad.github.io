@@ -24,7 +24,7 @@ additional_links:
   url: https://www.kaggle.com/leonnorblad
 
 #### About Section ###
-about_title: About Me
+about_title: /about
 about_profile_image: images/profilepic.jpg
 about_content: |
   AI and machine learning consultant at Yellow Elk. I help Swedish enterprises turn AI ambition into production-ready systems.
@@ -36,7 +36,7 @@ about_content: |
 ### Current projects section ###
 content:
 #### Experience Section ###
-  - title: Experience # Title for the section
+  - title: /work # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -80,7 +80,7 @@ content:
           I found this to be a great way to deepen my understanding of the course material and to help others.
 
 ### Projects section ####
-  - title: Hobby projects # Title for the section
+  - title: /projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
@@ -205,7 +205,7 @@ content:
           This was a great learning experience as it was our first time attending a competition on Kaggle.
           Our solution was novel but unfortunately did not perform well in the competition, leaving us on a top 61% placement.
 
-  - title: University projects
+  - title: /academic
     layout: list
     content:
       - layout: top-middle
@@ -272,7 +272,7 @@ content:
          Summary, code, and full pdf (abstract in English) are available on my GitHub.
 
 ### Education Section ###
-  - title: Education # Title for the section
+  - title: /education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -299,7 +299,7 @@ content:
           The program followed a similar structure as the BSc program, but with more advanced models and a deeper dive into the methods.
           This extended my toolbox to work with new data types and models. I will graduate in June 2024, thrilled to see what the future holds.
 
-  - title: Extracurriculat activity
+  - title: /etc
     layout: list
     content:
       - layout: left
